@@ -1,0 +1,343 @@
+[{"stream_name":"stderr","time":7.785783224,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.785828744,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.785834431,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.785837979,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.374585246,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.374613364,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.3746186,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.374622599,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":61.435403498,"data":"GPU 0 | [   0.4 min] M_ohne_f2_s0: Daten {'gelb_train': {'seqs': 38, 'tracks': 9426, 'crops': 328382}, 'gelb_val': {'seqs': 19, 'tracks': 4638, 'crops': 160947}, 'rot_train': {'seqs': 8, 'tracks': 929, 'crops': 31388}, 'rot_val': {'seqs': 4, 'tracks': 537, 'crops': 18283}}\n"}
+,{"stream_name":"stdout","time":61.435997902,"data":"GPU 1 | [   0.4 min] M_streng_f2_s0: Daten {'gelb_train': {'seqs': 38, 'tracks': 9206, 'crops': 236772}, 'gelb_val': {'seqs': 19, 'tracks': 4638, 'crops': 160947}, 'rot_train': {'seqs': 8, 'tracks': 872, 'crops': 21735}, 'rot_val': {'seqs': 4, 'tracks': 537, 'crops': 18283}}\n"}
+,{"stream_name":"stdout","time":62.409737509,"data":"GPU 0 | [   0.4 min] M_ohne_f2_s0: Val-Versuche 41340 schnell 1035\n"}
+,{"stream_name":"stdout","time":62.441397559,"data":"GPU 1 | [   0.4 min] M_streng_f2_s0: Val-Versuche 41340 schnell 1035\n"}
+,{"stream_name":"stdout","time":62.652152904,"data":"GPU 0 | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stdout","time":62.69208263,"data":"GPU 1 | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stdout","time":66.562683831,"data":"GPU 1 | \n"}
+,{"stream_name":"stdout","time":66.568900341,"data":"GPU 0 | \n"}
+,{"stream_name":"stdout","time":66.65241732,"data":"GPU 0 | Loading weights:   0%|          | 0/223 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stdout","time":66.653027508,"data":"GPU 0 | Loading weights: 100%|██████████| 223/223 [00:00\u003c00:00, 2760.90it/s]\n"}
+,{"stream_name":"stdout","time":66.654992946,"data":"GPU 1 | Loading weights:   0%|          | 0/223 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stdout","time":66.656003446,"data":"GPU 1 | Loading weights: 100%|██████████| 223/223 [00:00\u003c00:00, 2401.61it/s]\n"}
+,{"stream_name":"stdout","time":569.570176278,"data":"GPU 1 | /kaggle/working/worker.py:191: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.\n"}
+,{"stream_name":"stdout","time":569.575338393,"data":"GPU 1 | Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)\n"}
+,{"stream_name":"stdout","time":569.576295622,"data":"GPU 1 |   s = quick_score(m); hist.append(dict(step=step, loss=round(float(loss), 4), val_rank1=round(s, 3))); log(name, hist[-1])\n"}
+,{"stream_name":"stdout","time":569.577524879,"data":"GPU 1 | [   8.8 min] M_streng_f2_s0: M_streng_f2_s0_kopf {'step': 500, 'loss': 0.1835, 'val_rank1': 0.139}\n"}
+,{"stream_name":"stdout","time":878.474927923,"data":"GPU 0 | \n"}
+,{"stream_name":"stdout","time":878.505938546,"data":"GPU 0 | Loading weights:   0%|          | 0/223 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stdout","time":878.510955664,"data":"GPU 0 | Loading weights: 100%|██████████| 223/223 [00:00\u003c00:00, 6488.86it/s]\n"}
+,{"stream_name":"stdout","time":1084.943517521,"data":"GPU 1 | [  17.4 min] M_streng_f2_s0: M_streng_f2_s0_kopf {'step': 1000, 'loss': 0.1894, 'val_rank1': 0.154}\n"}
+,{"stream_name":"stdout","time":1325.0852851,"data":"GPU 0 | /kaggle/working/worker.py:191: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.\n"}
+,{"stream_name":"stdout","time":1325.086327979,"data":"GPU 0 | Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)\n"}
+,{"stream_name":"stdout","time":1325.090158735,"data":"GPU 0 |   s = quick_score(m); hist.append(dict(step=step, loss=round(float(loss), 4), val_rank1=round(s, 3))); log(name, hist[-1])\n"}
+,{"stream_name":"stdout","time":1325.09416316,"data":"GPU 0 | [  21.4 min] M_ohne_f2_s0: M_ohne_f2_s0_kopf {'step': 500, 'loss': 0.1825, 'val_rank1': 0.15}\n"}
+,{"stream_name":"stdout","time":1448.307201268,"data":"GPU 1 | [  23.5 min] M_streng_f2_s0: M_streng_f2_s0_kopf fertig {'gelb_alle': 0.158, 'rot_alle': 0.181}\n"}
+,{"stream_name":"stdout","time":1702.534486518,"data":"GPU 1 | [  27.7 min] M_streng_f2_s0: M_streng_f2_s0_trainiert {'step': 500, 'loss': 0.1676, 'val_rank1': 0.179}\n"}
+,{"stream_name":"stdout","time":1772.360434368,"data":"GPU 0 | [  28.9 min] M_ohne_f2_s0: M_ohne_f2_s0_kopf {'step': 1000, 'loss': 0.1818, 'val_rank1': 0.156}\n"}
+,{"stream_name":"stdout","time":1941.969439058,"data":"GPU 1 | [  31.7 min] M_streng_f2_s0: M_streng_f2_s0_trainiert {'step': 1000, 'loss': 0.1714, 'val_rank1': 0.181}\n"}
+,{"stream_name":"stdout","time":2147.568165455,"data":"GPU 0 | [  35.1 min] M_ohne_f2_s0: M_ohne_f2_s0_kopf fertig {'gelb_alle': 0.161, 'rot_alle': 0.182}\n"}
+,{"stream_name":"stdout","time":2175.655809246,"data":"GPU 1 | [  35.6 min] M_streng_f2_s0: M_streng_f2_s0_trainiert {'step': 1500, 'loss': 0.1628, 'val_rank1': 0.21}\n"}
+,{"stream_name":"stdout","time":2406.418351444,"data":"GPU 0 | [  39.4 min] M_ohne_f2_s0: M_ohne_f2_s0_trainiert {'step': 500, 'loss': 0.1629, 'val_rank1': 0.187}\n"}
+,{"stream_name":"stdout","time":2434.562908106,"data":"GPU 1 | [  39.9 min] M_streng_f2_s0: M_streng_f2_s0_trainiert {'step': 2000, 'loss': 0.1595, 'val_rank1': 0.216}\n"}
+,{"stream_name":"stdout","time":2648.530048179,"data":"GPU 0 | [  43.5 min] M_ohne_f2_s0: M_ohne_f2_s0_trainiert {'step': 1000, 'loss': 0.1629, 'val_rank1': 0.164}\n"}
+,{"stream_name":"stdout","time":2812.741946737,"data":"GPU 1 | [  46.2 min] M_streng_f2_s0: M_streng_f2_s0_trainiert fertig {'gelb_alle': 0.21, 'rot_alle': 0.25}\n"}
+,{"stream_name":"stdout","time":2812.74553866,"data":"GPU 1 | [  46.2 min] M_streng_f2_s0: ENDE\n"}
+,{"stream_name":"stdout","time":2832.867268643,"data":"GPU 1 | [   0.1 min] G_ohne_f2_s0: Daten {'gelb_train': {'seqs': 38, 'tracks': 9426, 'crops': 328382}, 'gelb_val': {'seqs': 19, 'tracks': 4638, 'crops': 160947}, 'rot_train': {'seqs': 8, 'tracks': 929, 'crops': 31388}, 'rot_val': {'seqs': 4, 'tracks': 537, 'crops': 18283}}\n"}
+,{"stream_name":"stdout","time":2835.041759473,"data":"GPU 1 | [   0.1 min] G_ohne_f2_s0: Val-Versuche 41340 schnell 1035\n"}
+,{"stream_name":"stdout","time":2837.090579705,"data":"GPU 1 | \n"}
+,{"stream_name":"stdout","time":2837.121046633,"data":"GPU 1 | Loading weights:   0%|          | 0/223 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stdout","time":2837.125661682,"data":"GPU 1 | Loading weights: 100%|██████████| 223/223 [00:00\u003c00:00, 7102.19it/s]\n"}
+,{"stream_name":"stdout","time":2875.935003919,"data":"GPU 0 | [  47.3 min] M_ohne_f2_s0: M_ohne_f2_s0_trainiert {'step': 1500, 'loss': 0.1611, 'val_rank1': 0.198}\n"}
+,{"stream_name":"stdout","time":3132.253488182,"data":"GPU 0 | [  51.5 min] M_ohne_f2_s0: M_ohne_f2_s0_trainiert {'step': 2000, 'loss': 0.1587, 'val_rank1': 0.197}\n"}
+,{"stream_name":"stdout","time":3355.763137434,"data":"GPU 1 | /kaggle/working/worker.py:191: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.\n"}
+,{"stream_name":"stdout","time":3355.764337011,"data":"GPU 1 | Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)\n"}
+,{"stream_name":"stdout","time":3355.765359441,"data":"GPU 1 |   s = quick_score(m); hist.append(dict(step=step, loss=round(float(loss), 4), val_rank1=round(s, 3))); log(name, hist[-1])\n"}
+,{"stream_name":"stdout","time":3355.766500432,"data":"GPU 1 | [   8.8 min] G_ohne_f2_s0: G_ohne_f2_s0_kopf {'step': 500, 'loss': 0.1884, 'val_rank1': 0.142}\n"}
+,{"stream_name":"stdout","time":3506.983887444,"data":"GPU 0 | [  57.8 min] M_ohne_f2_s0: M_ohne_f2_s0_trainiert fertig {'gelb_alle': 0.202, 'rot_alle': 0.242}\n"}
+,{"stream_name":"stdout","time":3506.98530034,"data":"GPU 0 | [  57.8 min] M_ohne_f2_s0: ENDE\n"}
+,{"stream_name":"stdout","time":3521.239682259,"data":"GPU 0 | [   0.1 min] M_ohne_f3_s0: Daten {'gelb_train': {'seqs': 38, 'tracks': 9166, 'crops': 317940}, 'gelb_val': {'seqs': 19, 'tracks': 4898, 'crops': 171389}, 'rot_train': {'seqs': 8, 'tracks': 1067, 'crops': 36066}, 'rot_val': {'seqs': 4, 'tracks': 399, 'crops': 13605}}\n"}
+,{"stream_name":"stdout","time":3523.449361003,"data":"GPU 0 | [   0.1 min] M_ohne_f3_s0: Val-Versuche 43240 schnell 1035\n"}
+,{"stream_name":"stdout","time":3525.729611129,"data":"GPU 0 | \n"}
+,{"stream_name":"stdout","time":3525.749491492,"data":"GPU 0 | Loading weights:   0%|          | 0/223 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stdout","time":3525.753016977,"data":"GPU 0 | Loading weights: 100%|██████████| 223/223 [00:00\u003c00:00, 12918.92it/s]\n"}
+,{"stream_name":"stdout","time":3811.814520519,"data":"GPU 1 | [  16.4 min] G_ohne_f2_s0: G_ohne_f2_s0_kopf {'step': 1000, 'loss': 0.1859, 'val_rank1': 0.139}\n"}
+,{"stream_name":"stdout","time":4172.479322721,"data":"GPU 1 | [  22.4 min] G_ohne_f2_s0: G_ohne_f2_s0_kopf fertig {'gelb_alle': 0.158, 'rot_alle': 0.146}\n"}
+,{"stream_name":"stdout","time":4351.556319851,"data":"GPU 0 | \n"}
+,{"stream_name":"stdout","time":4351.558666304,"data":"GPU 0 | Loading weights:   0%|          | 0/223 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stdout","time":4351.562180245,"data":"GPU 0 | Loading weights: 100%|██████████| 223/223 [00:00\u003c00:00, 14126.07it/s]\n"}
+,{"stream_name":"stdout","time":4414.13732476,"data":"GPU 1 | [  26.4 min] G_ohne_f2_s0: G_ohne_f2_s0_trainiert {'step': 500, 'loss': 0.1767, 'val_rank1': 0.158}\n"}
+,{"stream_name":"stdout","time":4670.157028326,"data":"GPU 1 | [  30.7 min] G_ohne_f2_s0: G_ohne_f2_s0_trainiert {'step': 1000, 'loss': 0.1628, 'val_rank1': 0.173}\n"}
+,{"stream_name":"stdout","time":4847.789553849,"data":"GPU 0 | /kaggle/working/worker.py:191: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.\n"}
+,{"stream_name":"stdout","time":4847.794490692,"data":"GPU 0 | Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)\n"}
+,{"stream_name":"stdout","time":4847.796237617,"data":"GPU 0 |   s = quick_score(m); hist.append(dict(step=step, loss=round(float(loss), 4), val_rank1=round(s, 3))); log(name, hist[-1])\n"}
+,{"stream_name":"stdout","time":4847.797958251,"data":"GPU 0 | [  22.2 min] M_ohne_f3_s0: M_ohne_f3_s0_kopf {'step': 500, 'loss': 0.1875, 'val_rank1': 0.17}\n"}
+,{"stream_name":"stdout","time":4923.837578878,"data":"GPU 1 | [  34.9 min] G_ohne_f2_s0: G_ohne_f2_s0_trainiert {'step': 1500, 'loss': 0.1673, 'val_rank1': 0.169}\n"}
+,{"stream_name":"stdout","time":5177.122604764,"data":"GPU 1 | [  39.1 min] G_ohne_f2_s0: G_ohne_f2_s0_trainiert {'step': 2000, 'loss': 0.1614, 'val_rank1': 0.196}\n"}
+,{"stream_name":"stdout","time":5320.473469861,"data":"GPU 0 | [  30.0 min] M_ohne_f3_s0: M_ohne_f3_s0_kopf {'step': 1000, 'loss': 0.186, 'val_rank1': 0.158}\n"}
+,{"stream_name":"stdout","time":5530.996636213,"data":"GPU 1 | [  45.0 min] G_ohne_f2_s0: G_ohne_f2_s0_trainiert fertig {'gelb_alle': 0.22, 'rot_alle': 0.191}\n"}
+,{"stream_name":"stdout","time":5530.998197847,"data":"GPU 1 | [  45.0 min] G_ohne_f2_s0: ENDE\n"}
+,{"stream_name":"stdout","time":5543.345358647,"data":"GPU 1 | [   0.1 min] M_streng_f3_s0: Daten {'gelb_train': {'seqs': 38, 'tracks': 8973, 'crops': 232597}, 'gelb_val': {'seqs': 19, 'tracks': 4898, 'crops': 171389}, 'rot_train': {'seqs': 8, 'tracks': 987, 'crops': 24228}, 'rot_val': {'seqs': 4, 'tracks': 399, 'crops': 13605}}\n"}
+,{"stream_name":"stdout","time":5545.163421211,"data":"GPU 1 | [   0.1 min] M_streng_f3_s0: Val-Versuche 43240 schnell 1035\n"}
+,{"stream_name":"stdout","time":5546.706692397,"data":"GPU 1 | \n"}
+,{"stream_name":"stdout","time":5546.737032064,"data":"GPU 1 | Loading weights:   0%|          | 0/223 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stdout","time":5546.74466715,"data":"GPU 1 | Loading weights: 100%|██████████| 223/223 [00:00\u003c00:00, 7248.26it/s]\n"}
+,{"stream_name":"stdout","time":5705.428570573,"data":"GPU 0 | [  36.5 min] M_ohne_f3_s0: M_ohne_f3_s0_kopf fertig {'gelb_alle': 0.144, 'rot_alle': 0.164}\n"}
+,{"stream_name":"stdout","time":5962.759453034,"data":"GPU 0 | [  40.7 min] M_ohne_f3_s0: M_ohne_f3_s0_trainiert {'step': 500, 'loss': 0.1744, 'val_rank1': 0.174}\n"}
+,{"stream_name":"stdout","time":6055.979494876,"data":"GPU 1 | /kaggle/working/worker.py:191: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.\n"}
+,{"stream_name":"stdout","time":6055.980552343,"data":"GPU 1 | Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)\n"}
+,{"stream_name":"stdout","time":6055.984717309,"data":"GPU 1 |   s = quick_score(m); hist.append(dict(step=step, loss=round(float(loss), 4), val_rank1=round(s, 3))); log(name, hist[-1])\n"}
+,{"stream_name":"stdout","time":6055.985657862,"data":"GPU 1 | [   8.6 min] M_streng_f3_s0: M_streng_f3_s0_kopf {'step': 500, 'loss': 0.1872, 'val_rank1': 0.159}\n"}
+,{"stream_name":"stdout","time":6216.71118094,"data":"GPU 0 | [  45.0 min] M_ohne_f3_s0: M_ohne_f3_s0_trainiert {'step': 1000, 'loss': 0.1695, 'val_rank1': 0.185}\n"}
+,{"stream_name":"stdout","time":6469.26137889,"data":"GPU 0 | [  49.2 min] M_ohne_f3_s0: M_ohne_f3_s0_trainiert {'step': 1500, 'loss': 0.1709, 'val_rank1': 0.205}\n"}
+,{"stream_name":"stdout","time":6578.965529342,"data":"GPU 1 | [  17.3 min] M_streng_f3_s0: M_streng_f3_s0_kopf {'step': 1000, 'loss': 0.1836, 'val_rank1': 0.149}\n"}
+,{"stream_name":"stdout","time":6709.774908892,"data":"GPU 0 | [  53.2 min] M_ohne_f3_s0: M_ohne_f3_s0_trainiert {'step': 2000, 'loss': 0.1776, 'val_rank1': 0.204}\n"}
+,{"stream_name":"stdout","time":6967.285115647,"data":"GPU 1 | [  23.8 min] M_streng_f3_s0: M_streng_f3_s0_kopf fertig {'gelb_alle': 0.146, 'rot_alle': 0.159}\n"}
+,{"stream_name":"stdout","time":7078.926500199,"data":"GPU 0 | [  59.4 min] M_ohne_f3_s0: M_ohne_f3_s0_trainiert fertig {'gelb_alle': 0.183, 'rot_alle': 0.24}\n"}
+,{"stream_name":"stdout","time":7078.927589534,"data":"GPU 0 | [  59.4 min] M_ohne_f3_s0: ENDE\n"}
+,{"stream_name":"stdout","time":7094.057190988,"data":"GPU 0 | [   0.1 min] G_ohne_f3_s0: Daten {'gelb_train': {'seqs': 38, 'tracks': 9166, 'crops': 317940}, 'gelb_val': {'seqs': 19, 'tracks': 4898, 'crops': 171389}, 'rot_train': {'seqs': 8, 'tracks': 1067, 'crops': 36066}, 'rot_val': {'seqs': 4, 'tracks': 399, 'crops': 13605}}\n"}
+,{"stream_name":"stdout","time":7096.503323463,"data":"GPU 0 | [   0.1 min] G_ohne_f3_s0: Val-Versuche 43240 schnell 1035\n"}
+,{"stream_name":"stdout","time":7098.677826916,"data":"GPU 0 | \n"}
+,{"stream_name":"stdout","time":7098.731090661,"data":"GPU 0 | Loading weights:   0%|          | 0/223 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stdout","time":7098.735015718,"data":"GPU 0 | Loading weights: 100%|██████████| 223/223 [00:00\u003c00:00, 4527.58it/s]\n"}
+,{"stream_name":"stdout","time":7204.500120877,"data":"GPU 1 | [  27.7 min] M_streng_f3_s0: M_streng_f3_s0_trainiert {'step': 500, 'loss': 0.1647, 'val_rank1': 0.193}\n"}
+,{"stream_name":"stdout","time":7465.013532083,"data":"GPU 1 | [  32.1 min] M_streng_f3_s0: M_streng_f3_s0_trainiert {'step': 1000, 'loss': 0.1558, 'val_rank1': 0.185}\n"}
+,{"stream_name":"stdout","time":7605.099875208,"data":"GPU 0 | /kaggle/working/worker.py:191: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.\n"}
+,{"stream_name":"stdout","time":7605.104389796,"data":"GPU 0 | Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)\n"}
+,{"stream_name":"stdout","time":7605.105437245,"data":"GPU 0 |   s = quick_score(m); hist.append(dict(step=step, loss=round(float(loss), 4), val_rank1=round(s, 3))); log(name, hist[-1])\n"}
+,{"stream_name":"stdout","time":7605.106507741,"data":"GPU 0 | [   8.6 min] G_ohne_f3_s0: G_ohne_f3_s0_kopf {'step': 500, 'loss': 0.1861, 'val_rank1': 0.152}\n"}
+,{"stream_name":"stdout","time":7721.870547205,"data":"GPU 1 | [  36.4 min] M_streng_f3_s0: M_streng_f3_s0_trainiert {'step': 1500, 'loss': 0.1703, 'val_rank1': 0.198}\n"}
+,{"stream_name":"stdout","time":7978.414024391,"data":"GPU 1 | [  40.6 min] M_streng_f3_s0: M_streng_f3_s0_trainiert {'step': 2000, 'loss': 0.1566, 'val_rank1': 0.193}\n"}
+,{"stream_name":"stdout","time":8086.144045205,"data":"GPU 0 | [  16.6 min] G_ohne_f3_s0: G_ohne_f3_s0_kopf {'step': 1000, 'loss': 0.1875, 'val_rank1': 0.147}\n"}
+,{"stream_name":"stdout","time":8343.589642871,"data":"GPU 1 | [  46.7 min] M_streng_f3_s0: M_streng_f3_s0_trainiert fertig {'gelb_alle': 0.182, 'rot_alle': 0.235}\n"}
+,{"stream_name":"stdout","time":8343.594655033,"data":"GPU 1 | [  46.7 min] M_streng_f3_s0: ENDE\n"}
+,{"stream_name":"stdout","time":8355.890823961,"data":"GPU 1 | [   0.1 min] M_ohne_f1_s1: Daten {'gelb_train': {'seqs': 38, 'tracks': 9536, 'crops': 332336}, 'gelb_val': {'seqs': 19, 'tracks': 4528, 'crops': 156993}, 'rot_train': {'seqs': 8, 'tracks': 936, 'crops': 31888}, 'rot_val': {'seqs': 4, 'tracks': 530, 'crops': 17783}}\n"}
+,{"stream_name":"stdout","time":8357.551527377,"data":"GPU 1 | [   0.1 min] M_ohne_f1_s1: Val-Versuche 40520 schnell 1035\n"}
+,{"stream_name":"stdout","time":8359.348414344,"data":"GPU 1 | \n"}
+,{"stream_name":"stdout","time":8359.385075321,"data":"GPU 1 | Loading weights:   0%|          | 0/223 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stdout","time":8359.386313582,"data":"GPU 1 | Loading weights: 100%|██████████| 223/223 [00:00\u003c00:00, 6147.70it/s]\n"}
+,{"stream_name":"stdout","time":8473.537919264,"data":"GPU 0 | [  23.1 min] G_ohne_f3_s0: G_ohne_f3_s0_kopf fertig {'gelb_alle': 0.145, 'rot_alle': 0.149}\n"}
+,{"stream_name":"stdout","time":8726.591892237,"data":"GPU 0 | [  27.3 min] G_ohne_f3_s0: G_ohne_f3_s0_trainiert {'step': 500, 'loss': 0.1732, 'val_rank1': 0.147}\n"}
+,{"stream_name":"stdout","time":8879.281349102,"data":"GPU 1 | /kaggle/working/worker.py:191: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.\n"}
+,{"stream_name":"stdout","time":8879.282535791,"data":"GPU 1 | Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)\n"}
+,{"stream_name":"stdout","time":8879.284405485,"data":"GPU 1 |   s = quick_score(m); hist.append(dict(step=step, loss=round(float(loss), 4), val_rank1=round(s, 3))); log(name, hist[-1])\n"}
+,{"stream_name":"stdout","time":8879.287234813,"data":"GPU 1 | [   8.8 min] M_ohne_f1_s1: M_ohne_f1_s1_kopf {'step': 500, 'loss': 0.1913, 'val_rank1': 0.182}\n"}
+,{"stream_name":"stdout","time":8971.501350323,"data":"GPU 0 | [  31.4 min] G_ohne_f3_s0: G_ohne_f3_s0_trainiert {'step': 1000, 'loss': 0.1712, 'val_rank1': 0.181}\n"}
+,{"stream_name":"stdout","time":9217.728071565,"data":"GPU 0 | [  35.5 min] G_ohne_f3_s0: G_ohne_f3_s0_trainiert {'step': 1500, 'loss': 0.1675, 'val_rank1': 0.182}\n"}
+,{"stream_name":"stdout","time":9386.334484608,"data":"GPU 1 | [  17.2 min] M_ohne_f1_s1: M_ohne_f1_s1_kopf {'step': 1000, 'loss': 0.1879, 'val_rank1': 0.179}\n"}
+,{"stream_name":"stdout","time":9459.8704719,"data":"GPU 0 | [  39.5 min] G_ohne_f3_s0: G_ohne_f3_s0_trainiert {'step': 2000, 'loss': 0.1605, 'val_rank1': 0.183}\n"}
+,{"stream_name":"stdout","time":9749.505179681,"data":"GPU 1 | [  23.3 min] M_ohne_f1_s1: M_ohne_f1_s1_kopf fertig {'gelb_alle': 0.167, 'rot_alle': 0.159}\n"}
+,{"stream_name":"stdout","time":9828.741256598,"data":"GPU 0 | [  45.6 min] G_ohne_f3_s0: G_ohne_f3_s0_trainiert fertig {'gelb_alle': 0.196, 'rot_alle': 0.185}\n"}
+,{"stream_name":"stdout","time":9828.745922977,"data":"GPU 0 | [  45.6 min] G_ohne_f3_s0: ENDE\n"}
+,{"stream_name":"stdout","time":9843.963513817,"data":"GPU 0 | [   0.1 min] M_streng_f1_s1: Daten {'gelb_train': {'seqs': 38, 'tracks': 9335, 'crops': 244655}, 'gelb_val': {'seqs': 19, 'tracks': 4528, 'crops': 156993}, 'rot_train': {'seqs': 8, 'tracks': 877, 'crops': 22599}, 'rot_val': {'seqs': 4, 'tracks': 530, 'crops': 17783}}\n"}
+,{"stream_name":"stdout","time":9846.063144672,"data":"GPU 0 | [   0.1 min] M_streng_f1_s1: Val-Versuche 40520 schnell 1035\n"}
+,{"stream_name":"stdout","time":9848.278869543,"data":"GPU 0 | \n"}
+,{"stream_name":"stdout","time":9848.323419778,"data":"GPU 0 | Loading weights:   0%|          | 0/223 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stdout","time":9848.329919244,"data":"GPU 0 | Loading weights: 100%|██████████| 223/223 [00:00\u003c00:00, 5923.86it/s]\n"}
+,{"stream_name":"stdout","time":9987.845712876,"data":"GPU 1 | [  27.3 min] M_ohne_f1_s1: M_ohne_f1_s1_trainiert {'step': 500, 'loss': 0.1728, 'val_rank1': 0.205}\n"}
+,{"stream_name":"stdout","time":10244.790625161,"data":"GPU 1 | [  31.5 min] M_ohne_f1_s1: M_ohne_f1_s1_trainiert {'step': 1000, 'loss': 0.1648, 'val_rank1': 0.212}\n"}
+,{"stream_name":"stdout","time":10376.102529471,"data":"GPU 0 | /kaggle/working/worker.py:191: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.\n"}
+,{"stream_name":"stdout","time":10376.103629945,"data":"GPU 0 | Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)\n"}
+,{"stream_name":"stdout","time":10376.107080934,"data":"GPU 0 |   s = quick_score(m); hist.append(dict(step=step, loss=round(float(loss), 4), val_rank1=round(s, 3))); log(name, hist[-1])\n"}
+,{"stream_name":"stdout","time":10376.108115367,"data":"GPU 0 | [   8.9 min] M_streng_f1_s1: M_streng_f1_s1_kopf {'step': 500, 'loss': 0.1889, 'val_rank1': 0.164}\n"}
+,{"stream_name":"stdout","time":10501.169439838,"data":"GPU 1 | [  35.8 min] M_ohne_f1_s1: M_ohne_f1_s1_trainiert {'step': 1500, 'loss': 0.1671, 'val_rank1': 0.214}\n"}
+,{"stream_name":"stdout","time":10756.165386951,"data":"GPU 1 | [  40.1 min] M_ohne_f1_s1: M_ohne_f1_s1_trainiert {'step': 2000, 'loss': 0.1696, 'val_rank1': 0.22}\n"}
+,{"stream_name":"stdout","time":10877.137876303,"data":"GPU 0 | [  17.3 min] M_streng_f1_s1: M_streng_f1_s1_kopf {'step': 1000, 'loss': 0.1839, 'val_rank1': 0.17}\n"}
+,{"stream_name":"stdout","time":11105.053386947,"data":"GPU 1 | [  45.9 min] M_ohne_f1_s1: M_ohne_f1_s1_trainiert fertig {'gelb_alle': 0.221, 'rot_alle': 0.225}\n"}
+,{"stream_name":"stdout","time":11105.053456466,"data":"GPU 1 | [  45.9 min] M_ohne_f1_s1: ENDE\n"}
+,{"stream_name":"stdout","time":11117.183406973,"data":"GPU 1 | [   0.1 min] M_ohne_f2_s1: Daten {'gelb_train': {'seqs': 38, 'tracks': 9426, 'crops': 328382}, 'gelb_val': {'seqs': 19, 'tracks': 4638, 'crops': 160947}, 'rot_train': {'seqs': 8, 'tracks': 929, 'crops': 31388}, 'rot_val': {'seqs': 4, 'tracks': 537, 'crops': 18283}}\n"}
+,{"stream_name":"stdout","time":11118.877767663,"data":"GPU 1 | [   0.1 min] M_ohne_f2_s1: Val-Versuche 41340 schnell 1035\n"}
+,{"stream_name":"stdout","time":11120.549843428,"data":"GPU 1 | \n"}
+,{"stream_name":"stdout","time":11120.604008765,"data":"GPU 1 | Loading weights:   0%|          | 0/223 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stdout","time":11120.60554945,"data":"GPU 1 | Loading weights: 100%|██████████| 223/223 [00:00\u003c00:00, 4439.51it/s]\n"}
+,{"stream_name":"stdout","time":11225.982089014,"data":"GPU 0 | [  23.1 min] M_streng_f1_s1: M_streng_f1_s1_kopf fertig {'gelb_alle': 0.168, 'rot_alle': 0.157}\n"}
+,{"stream_name":"stdout","time":11484.077291264,"data":"GPU 0 | [  27.4 min] M_streng_f1_s1: M_streng_f1_s1_trainiert {'step': 500, 'loss': 0.1729, 'val_rank1': 0.196}\n"}
+,{"stream_name":"stdout","time":11651.199734923,"data":"GPU 1 | /kaggle/working/worker.py:191: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.\n"}
+,{"stream_name":"stdout","time":11651.204010028,"data":"GPU 1 | Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)\n"}
+,{"stream_name":"stdout","time":11651.204949618,"data":"GPU 1 |   s = quick_score(m); hist.append(dict(step=step, loss=round(float(loss), 4), val_rank1=round(s, 3))); log(name, hist[-1])\n"}
+,{"stream_name":"stdout","time":11651.205856385,"data":"GPU 1 | [   9.0 min] M_ohne_f2_s1: M_ohne_f2_s1_kopf {'step': 500, 'loss': 0.1907, 'val_rank1': 0.151}\n"}
+,{"stream_name":"stdout","time":11736.507688857,"data":"GPU 0 | [  31.6 min] M_streng_f1_s1: M_streng_f1_s1_trainiert {'step': 1000, 'loss': 0.1576, 'val_rank1': 0.214}\n"}
+,{"stream_name":"stdout","time":11989.06853623,"data":"GPU 0 | [  35.8 min] M_streng_f1_s1: M_streng_f1_s1_trainiert {'step': 1500, 'loss': 0.1656, 'val_rank1': 0.234}\n"}
+,{"stream_name":"stdout","time":12175.872770098,"data":"GPU 1 | [  17.7 min] M_ohne_f2_s1: M_ohne_f2_s1_kopf {'step': 1000, 'loss': 0.1833, 'val_rank1': 0.159}\n"}
+,{"stream_name":"stdout","time":12234.219055096,"data":"GPU 0 | [  39.9 min] M_streng_f1_s1: M_streng_f1_s1_trainiert {'step': 2000, 'loss': 0.1656, 'val_rank1': 0.236}\n"}
+,{"stream_name":"stdout","time":12524.07966324,"data":"GPU 1 | [  23.5 min] M_ohne_f2_s1: M_ohne_f2_s1_kopf fertig {'gelb_alle': 0.16, 'rot_alle': 0.182}\n"}
+,{"stream_name":"stdout","time":12580.563875381,"data":"GPU 0 | [  45.7 min] M_streng_f1_s1: M_streng_f1_s1_trainiert fertig {'gelb_alle': 0.219, 'rot_alle': 0.217}\n"}
+,{"stream_name":"stdout","time":12580.567686848,"data":"GPU 0 | [  45.7 min] M_streng_f1_s1: ENDE\n"}
+,{"stream_name":"stdout","time":12595.779019613,"data":"GPU 0 | [   0.1 min] M_streng_f2_s1: Daten {'gelb_train': {'seqs': 38, 'tracks': 9206, 'crops': 236772}, 'gelb_val': {'seqs': 19, 'tracks': 4638, 'crops': 160947}, 'rot_train': {'seqs': 8, 'tracks': 872, 'crops': 21735}, 'rot_val': {'seqs': 4, 'tracks': 537, 'crops': 18283}}\n"}
+,{"stream_name":"stdout","time":12597.953123014,"data":"GPU 0 | [   0.1 min] M_streng_f2_s1: Val-Versuche 41340 schnell 1035\n"}
+,{"stream_name":"stdout","time":12600.046695496,"data":"GPU 0 | \n"}
+,{"stream_name":"stdout","time":12600.06754714,"data":"GPU 0 | Loading weights:   0%|          | 0/223 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stdout","time":12600.070390337,"data":"GPU 0 | Loading weights: 100%|██████████| 223/223 [00:00\u003c00:00, 10438.60it/s]\n"}
+,{"stream_name":"stdout","time":12755.470410117,"data":"GPU 1 | [  27.4 min] M_ohne_f2_s1: M_ohne_f2_s1_trainiert {'step': 500, 'loss': 0.1788, 'val_rank1': 0.193}\n"}
+,{"stream_name":"stdout","time":13004.741287922,"data":"GPU 1 | [  31.5 min] M_ohne_f2_s1: M_ohne_f2_s1_trainiert {'step': 1000, 'loss': 0.1779, 'val_rank1': 0.19}\n"}
+,{"stream_name":"stdout","time":13135.387699781,"data":"GPU 0 | /kaggle/working/worker.py:191: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.\n"}
+,{"stream_name":"stdout","time":13135.389106728,"data":"GPU 0 | Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)\n"}
+,{"stream_name":"stdout","time":13135.390388693,"data":"GPU 0 |   s = quick_score(m); hist.append(dict(step=step, loss=round(float(loss), 4), val_rank1=round(s, 3))); log(name, hist[-1])\n"}
+,{"stream_name":"stdout","time":13135.394675547,"data":"GPU 0 | [   9.1 min] M_streng_f2_s1: M_streng_f2_s1_kopf {'step': 500, 'loss': 0.1837, 'val_rank1': 0.152}\n"}
+,{"stream_name":"stdout","time":13253.435529401,"data":"GPU 1 | [  35.7 min] M_ohne_f2_s1: M_ohne_f2_s1_trainiert {'step': 1500, 'loss': 0.1663, 'val_rank1': 0.181}\n"}
+,{"stream_name":"stdout","time":13502.002688966,"data":"GPU 1 | [  39.8 min] M_ohne_f2_s1: M_ohne_f2_s1_trainiert {'step': 2000, 'loss': 0.1715, 'val_rank1': 0.198}\n"}
+,{"stream_name":"stdout","time":13651.278310855,"data":"GPU 0 | [  17.7 min] M_streng_f2_s1: M_streng_f2_s1_kopf {'step': 1000, 'loss': 0.1858, 'val_rank1': 0.167}\n"}
+,{"stream_name":"stdout","time":13855.681386613,"data":"GPU 1 | [  45.7 min] M_ohne_f2_s1: M_ohne_f2_s1_trainiert fertig {'gelb_alle': 0.206, 'rot_alle': 0.263}\n"}
+,{"stream_name":"stdout","time":13855.682530042,"data":"GPU 1 | [  45.7 min] M_ohne_f2_s1: ENDE\n"}
+,{"stream_name":"stdout","time":13867.774059346,"data":"GPU 1 | [   0.0 min] M_ohne_f3_s1: Daten {'gelb_train': {'seqs': 38, 'tracks': 9166, 'crops': 317940}, 'gelb_val': {'seqs': 19, 'tracks': 4898, 'crops': 171389}, 'rot_train': {'seqs': 8, 'tracks': 1067, 'crops': 36066}, 'rot_val': {'seqs': 4, 'tracks': 399, 'crops': 13605}}\n"}
+,{"stream_name":"stdout","time":13869.524248571,"data":"GPU 1 | [   0.1 min] M_ohne_f3_s1: Val-Versuche 43240 schnell 1035\n"}
+,{"stream_name":"stdout","time":13871.143069299,"data":"GPU 1 | \n"}
+,{"stream_name":"stdout","time":13871.169043795,"data":"GPU 1 | Loading weights:   0%|          | 0/223 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stdout","time":13871.170737993,"data":"GPU 1 | Loading weights: 100%|██████████| 223/223 [00:00\u003c00:00, 9392.94it/s]\n"}
+,{"stream_name":"stdout","time":14005.062738886,"data":"GPU 0 | [  23.6 min] M_streng_f2_s1: M_streng_f2_s1_kopf fertig {'gelb_alle': 0.16, 'rot_alle': 0.184}\n"}
+,{"stream_name":"stdout","time":14264.544249137,"data":"GPU 0 | [  27.9 min] M_streng_f2_s1: M_streng_f2_s1_trainiert {'step': 500, 'loss': 0.1731, 'val_rank1': 0.176}\n"}
+,{"stream_name":"stdout","time":14387.432078495,"data":"GPU 1 | /kaggle/working/worker.py:191: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.\n"}
+,{"stream_name":"stdout","time":14387.437168908,"data":"GPU 1 | Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)\n"}
+,{"stream_name":"stdout","time":14387.43845457,"data":"GPU 1 |   s = quick_score(m); hist.append(dict(step=step, loss=round(float(loss), 4), val_rank1=round(s, 3))); log(name, hist[-1])\n"}
+,{"stream_name":"stdout","time":14387.442688371,"data":"GPU 1 | [   8.7 min] M_ohne_f3_s1: M_ohne_f3_s1_kopf {'step': 500, 'loss': 0.184, 'val_rank1': 0.163}\n"}
+,{"stream_name":"stdout","time":14520.37029156,"data":"GPU 0 | [  32.1 min] M_streng_f2_s1: M_streng_f2_s1_trainiert {'step': 1000, 'loss': 0.1644, 'val_rank1': 0.202}\n"}
+,{"stream_name":"stdout","time":14777.550285112,"data":"GPU 0 | [  36.4 min] M_streng_f2_s1: M_streng_f2_s1_trainiert {'step': 1500, 'loss': 0.1672, 'val_rank1': 0.182}\n"}
+,{"stream_name":"stdout","time":14906.769640661,"data":"GPU 1 | [  17.4 min] M_ohne_f3_s1: M_ohne_f3_s1_kopf {'step': 1000, 'loss': 0.1853, 'val_rank1': 0.155}\n"}
+,{"stream_name":"stdout","time":15024.622604367,"data":"GPU 0 | [  40.5 min] M_streng_f2_s1: M_streng_f2_s1_trainiert {'step': 2000, 'loss': 0.161, 'val_rank1': 0.206}\n"}
+,{"stream_name":"stdout","time":15290.891084973,"data":"GPU 1 | [  23.8 min] M_ohne_f3_s1: M_ohne_f3_s1_kopf fertig {'gelb_alle': 0.144, 'rot_alle': 0.165}\n"}
+,{"stream_name":"stdout","time":15386.443076572,"data":"GPU 0 | [  46.6 min] M_streng_f2_s1: M_streng_f2_s1_trainiert fertig {'gelb_alle': 0.212, 'rot_alle': 0.26}\n"}
+,{"stream_name":"stdout","time":15386.444559883,"data":"GPU 0 | [  46.6 min] M_streng_f2_s1: ENDE\n"}
+,{"stream_name":"stdout","time":15401.482628985,"data":"GPU 0 | [   0.1 min] M_streng_f3_s1: Daten {'gelb_train': {'seqs': 38, 'tracks': 8973, 'crops': 232597}, 'gelb_val': {'seqs': 19, 'tracks': 4898, 'crops': 171389}, 'rot_train': {'seqs': 8, 'tracks': 987, 'crops': 24228}, 'rot_val': {'seqs': 4, 'tracks': 399, 'crops': 13605}}\n"}
+,{"stream_name":"stdout","time":15403.686263905,"data":"GPU 0 | [   0.1 min] M_streng_f3_s1: Val-Versuche 43240 schnell 1035\n"}
+,{"stream_name":"stdout","time":15405.742177729,"data":"GPU 0 | \n"}
+,{"stream_name":"stdout","time":15405.782331209,"data":"GPU 0 | Loading weights:   0%|          | 0/223 [00:00\u003c?, ?it/s]\n"}
+,{"stream_name":"stdout","time":15405.786639549,"data":"GPU 0 | Loading weights: 100%|██████████| 223/223 [00:00\u003c00:00, 5640.33it/s]\n"}
+,{"stream_name":"stdout","time":15529.99080681,"data":"GPU 1 | [  27.8 min] M_ohne_f3_s1: M_ohne_f3_s1_trainiert {'step': 500, 'loss': 0.1749, 'val_rank1': 0.188}\n"}
+,{"stream_name":"stdout","time":15783.93518055,"data":"GPU 1 | [  32.0 min] M_ohne_f3_s1: M_ohne_f3_s1_trainiert {'step': 1000, 'loss': 0.1686, 'val_rank1': 0.178}\n"}
+,{"stream_name":"stdout","time":15958.363514468,"data":"GPU 0 | /kaggle/working/worker.py:191: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.\n"}
+,{"stream_name":"stdout","time":15958.364915112,"data":"GPU 0 | Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)\n"}
+,{"stream_name":"stdout","time":15958.366270961,"data":"GPU 0 |   s = quick_score(m); hist.append(dict(step=step, loss=round(float(loss), 4), val_rank1=round(s, 3))); log(name, hist[-1])\n"}
+,{"stream_name":"stdout","time":15958.370367533,"data":"GPU 0 | [   9.3 min] M_streng_f3_s1: M_streng_f3_s1_kopf {'step': 500, 'loss': 0.1832, 'val_rank1': 0.152}\n"}
+,{"stream_name":"stdout","time":16038.779910734,"data":"GPU 1 | [  36.2 min] M_ohne_f3_s1: M_ohne_f3_s1_trainiert {'step': 1500, 'loss': 0.1768, 'val_rank1': 0.193}\n"}
+,{"stream_name":"stdout","time":16289.312156949,"data":"GPU 1 | [  40.4 min] M_ohne_f3_s1: M_ohne_f3_s1_trainiert {'step': 2000, 'loss': 0.1716, 'val_rank1': 0.207}\n"}
+,{"stream_name":"stdout","time":16477.229742241,"data":"GPU 0 | [  18.0 min] M_streng_f3_s1: M_streng_f3_s1_kopf {'step': 1000, 'loss': 0.1885, 'val_rank1': 0.149}\n"}
+,{"stream_name":"stdout","time":16658.403809368,"data":"GPU 1 | [  46.6 min] M_ohne_f3_s1: M_ohne_f3_s1_trainiert fertig {'gelb_alle': 0.19, 'rot_alle': 0.234}\n"}
+,{"stream_name":"stdout","time":16658.411272724,"data":"GPU 1 | [  46.6 min] M_ohne_f3_s1: ENDE\n"}
+,{"stream_name":"stdout","time":16811.678659483,"data":"GPU 0 | [  23.6 min] M_streng_f3_s1: M_streng_f3_s1_kopf fertig {'gelb_alle': 0.143, 'rot_alle': 0.17}\n"}
+,{"stream_name":"stdout","time":16965.775869896,"data":"GPU 0 | [  26.1 min] M_streng_f3_s1: M_streng_f3_s1_trainiert {'step': 500, 'loss': 0.1679, 'val_rank1': 0.191}\n"}
+,{"stream_name":"stdout","time":17117.776873452,"data":"GPU 0 | [  28.7 min] M_streng_f3_s1: M_streng_f3_s1_trainiert {'step': 1000, 'loss': 0.1617, 'val_rank1': 0.181}\n"}
+,{"stream_name":"stdout","time":17268.102837009,"data":"GPU 0 | [  31.2 min] M_streng_f3_s1: M_streng_f3_s1_trainiert {'step': 1500, 'loss': 0.1657, 'val_rank1': 0.197}\n"}
+,{"stream_name":"stdout","time":17418.435925712,"data":"GPU 0 | [  33.7 min] M_streng_f3_s1: M_streng_f3_s1_trainiert {'step': 2000, 'loss': 0.16, 'val_rank1': 0.195}\n"}
+,{"stream_name":"stdout","time":17718.944033503,"data":"GPU 0 | [  38.7 min] M_streng_f3_s1: M_streng_f3_s1_trainiert fertig {'gelb_alle': 0.188, 'rot_alle': 0.232}\n"}
+,{"stream_name":"stdout","time":17718.944901866,"data":"GPU 0 | [  38.7 min] M_streng_f3_s1: ENDE\n"}
+,{"stream_name":"stdout","time":17722.308091379,"data":" fold  seed                   modell      gruppe  rank1   ci_sequenzen      ci_tracks  tracks  sequenzen  versuche\n"}
+,{"stream_name":"stdout","time":17722.308125408,"data":"    2     0        G_ohne_f2_s0_kopf   gelb_alle  0.158 [0.151, 0.167] [0.152, 0.165]    1857         19     37140\n"}
+,{"stream_name":"stdout","time":17722.308131934,"data":"    2     0        G_ohne_f2_s0_kopf gelb_bewegt  0.150 [0.144, 0.157] [0.144, 0.157]    1786         19     35720\n"}
+,{"stream_name":"stdout","time":17722.30813723,"data":"    2     0        G_ohne_f2_s0_kopf    rot_alle  0.146 [0.129, 0.163] [0.128, 0.165]     210          4      4200\n"}
+,{"stream_name":"stdout","time":17722.308142449,"data":"    2     0        G_ohne_f2_s0_kopf  rot_bewegt  0.143 [0.124, 0.163] [0.127, 0.161]     207          4      4140\n"}
+,{"stream_name":"stdout","time":17722.308147706,"data":"    2     0   G_ohne_f2_s0_trainiert   gelb_alle  0.220 [0.212, 0.229]  [0.211, 0.23]    1857         19     37140\n"}
+,{"stream_name":"stdout","time":17722.308152715,"data":"    2     0   G_ohne_f2_s0_trainiert gelb_bewegt  0.211 [0.203, 0.218]  [0.202, 0.22]    1786         19     35720\n"}
+,{"stream_name":"stdout","time":17722.308157495,"data":"    2     0   G_ohne_f2_s0_trainiert    rot_alle  0.191  [0.16, 0.221] [0.169, 0.215]     210          4      4200\n"}
+,{"stream_name":"stdout","time":17722.308162409,"data":"    2     0   G_ohne_f2_s0_trainiert  rot_bewegt  0.189 [0.162, 0.218] [0.168, 0.211]     207          4      4140\n"}
+,{"stream_name":"stdout","time":17722.30816737,"data":"    3     0        G_ohne_f3_s0_kopf   gelb_alle  0.145 [0.139, 0.151] [0.139, 0.152]    1994         19     39880\n"}
+,{"stream_name":"stdout","time":17722.308172778,"data":"    3     0        G_ohne_f3_s0_kopf gelb_bewegt  0.142 [0.137, 0.147] [0.136, 0.148]    1948         19     38960\n"}
+,{"stream_name":"stdout","time":17722.308177958,"data":"    3     0        G_ohne_f3_s0_kopf    rot_alle  0.149 [0.108, 0.195] [0.126, 0.174]     168          4      3360\n"}
+,{"stream_name":"stdout","time":17722.30818318,"data":"    3     0        G_ohne_f3_s0_kopf  rot_bewegt  0.137 [0.102, 0.181] [0.116, 0.157]     162          4      3240\n"}
+,{"stream_name":"stdout","time":17722.308214266,"data":"    3     0   G_ohne_f3_s0_trainiert   gelb_alle  0.196 [0.187, 0.205] [0.188, 0.206]    1994         19     39880\n"}
+,{"stream_name":"stdout","time":17722.308221698,"data":"    3     0   G_ohne_f3_s0_trainiert gelb_bewegt  0.190 [0.181, 0.199] [0.181, 0.198]    1948         19     38960\n"}
+,{"stream_name":"stdout","time":17722.308225993,"data":"    3     0   G_ohne_f3_s0_trainiert    rot_alle  0.185 [0.134, 0.233] [0.154, 0.217]     168          4      3360\n"}
+,{"stream_name":"stdout","time":17722.308229936,"data":"    3     0   G_ohne_f3_s0_trainiert  rot_bewegt  0.173 [0.128, 0.218] [0.145, 0.202]     162          4      3240\n"}
+,{"stream_name":"stdout","time":17722.308236333,"data":"    1     1        M_ohne_f1_s1_kopf   gelb_alle  0.167 [0.157, 0.176] [0.159, 0.175]    1850         19     37000\n"}
+,{"stream_name":"stdout","time":17722.308239682,"data":"    1     1        M_ohne_f1_s1_kopf gelb_bewegt  0.145  [0.14, 0.152] [0.138, 0.151]    1739         19     34780\n"}
+,{"stream_name":"stdout","time":17722.308243224,"data":"    1     1        M_ohne_f1_s1_kopf    rot_alle  0.159 [0.139, 0.202] [0.134, 0.183]     176          4      3520\n"}
+,{"stream_name":"stdout","time":17722.308246912,"data":"    1     1        M_ohne_f1_s1_kopf  rot_bewegt  0.159 [0.142, 0.202] [0.134, 0.186]     173          4      3460\n"}
+,{"stream_name":"stdout","time":17722.308250692,"data":"    1     1   M_ohne_f1_s1_trainiert   gelb_alle  0.221 [0.209, 0.232] [0.211, 0.231]    1850         19     37000\n"}
+,{"stream_name":"stdout","time":17722.308254065,"data":"    1     1   M_ohne_f1_s1_trainiert gelb_bewegt  0.196 [0.187, 0.206] [0.188, 0.205]    1739         19     34780\n"}
+,{"stream_name":"stdout","time":17722.308257695,"data":"    1     1   M_ohne_f1_s1_trainiert    rot_alle  0.225 [0.199, 0.273] [0.193, 0.259]     176          4      3520\n"}
+,{"stream_name":"stdout","time":17722.308261243,"data":"    1     1   M_ohne_f1_s1_trainiert  rot_bewegt  0.223  [0.198, 0.26] [0.192, 0.255]     173          4      3460\n"}
+,{"stream_name":"stdout","time":17722.308264967,"data":"    2     0       dinov2_untrainiert   gelb_alle  0.140 [0.133, 0.147] [0.134, 0.147]    1857         19     37140\n"}
+,{"stream_name":"stdout","time":17722.308268816,"data":"    2     0       dinov2_untrainiert gelb_bewegt  0.134 [0.129, 0.139]  [0.129, 0.14]    1786         19     35720\n"}
+,{"stream_name":"stdout","time":17722.308272978,"data":"    2     0       dinov2_untrainiert    rot_alle  0.137 [0.115, 0.158]  [0.12, 0.156]     210          4      4200\n"}
+,{"stream_name":"stdout","time":17722.30827638,"data":"    2     0       dinov2_untrainiert  rot_bewegt  0.135 [0.115, 0.156] [0.118, 0.151]     207          4      4140\n"}
+,{"stream_name":"stdout","time":17722.308280174,"data":"    2     0              pixel_32x32   gelb_alle  0.118 [0.112, 0.124] [0.113, 0.124]    1857         19     37140\n"}
+,{"stream_name":"stdout","time":17722.30828368,"data":"    2     0              pixel_32x32 gelb_bewegt  0.112 [0.107, 0.117] [0.107, 0.118]    1786         19     35720\n"}
+,{"stream_name":"stdout","time":17722.308287336,"data":"    2     0              pixel_32x32    rot_alle  0.111 [0.095, 0.124] [0.096, 0.128]     210          4      4200\n"}
+,{"stream_name":"stdout","time":17722.308291036,"data":"    2     0              pixel_32x32  rot_bewegt  0.112 [0.096, 0.127] [0.097, 0.127]     207          4      4140\n"}
+,{"stream_name":"stdout","time":17722.308294952,"data":"    2     0        M_ohne_f2_s0_kopf   gelb_alle  0.161  [0.152, 0.17] [0.154, 0.168]    1857         19     37140\n"}
+,{"stream_name":"stdout","time":17722.308298729,"data":"    2     0        M_ohne_f2_s0_kopf gelb_bewegt  0.154 [0.146, 0.161]  [0.147, 0.16]    1786         19     35720\n"}
+,{"stream_name":"stdout","time":17722.308308821,"data":"    2     0        M_ohne_f2_s0_kopf    rot_alle  0.182 [0.152, 0.209] [0.159, 0.206]     210          4      4200\n"}
+,{"stream_name":"stdout","time":17722.308313371,"data":"    2     0        M_ohne_f2_s0_kopf  rot_bewegt  0.180 [0.154, 0.207] [0.158, 0.204]     207          4      4140\n"}
+,{"stream_name":"stdout","time":17722.308317316,"data":"    2     0   M_ohne_f2_s0_trainiert   gelb_alle  0.202 [0.194, 0.211] [0.194, 0.211]    1857         19     37140\n"}
+,{"stream_name":"stdout","time":17722.308321182,"data":"    2     0   M_ohne_f2_s0_trainiert gelb_bewegt  0.193   [0.186, 0.2] [0.184, 0.201]    1786         19     35720\n"}
+,{"stream_name":"stdout","time":17722.308324825,"data":"    2     0   M_ohne_f2_s0_trainiert    rot_alle  0.242 [0.197, 0.277] [0.207, 0.273]     210          4      4200\n"}
+,{"stream_name":"stdout","time":17722.308328355,"data":"    2     0   M_ohne_f2_s0_trainiert  rot_bewegt  0.240   [0.2, 0.274] [0.211, 0.272]     207          4      4140\n"}
+,{"stream_name":"stdout","time":17722.308332143,"data":"    2     1        M_ohne_f2_s1_kopf   gelb_alle  0.160 [0.152, 0.168] [0.153, 0.167]    1857         19     37140\n"}
+,{"stream_name":"stdout","time":17722.3083361,"data":"    2     1        M_ohne_f2_s1_kopf gelb_bewegt  0.153 [0.147, 0.159]  [0.147, 0.16]    1786         19     35720\n"}
+,{"stream_name":"stdout","time":17722.308339831,"data":"    2     1        M_ohne_f2_s1_kopf    rot_alle  0.182 [0.151, 0.206] [0.158, 0.206]     210          4      4200\n"}
+,{"stream_name":"stdout","time":17722.308343382,"data":"    2     1        M_ohne_f2_s1_kopf  rot_bewegt  0.180 [0.154, 0.206] [0.157, 0.204]     207          4      4140\n"}
+,{"stream_name":"stdout","time":17722.30834675,"data":"    2     1   M_ohne_f2_s1_trainiert   gelb_alle  0.206 [0.197, 0.216] [0.197, 0.215]    1857         19     37140\n"}
+,{"stream_name":"stdout","time":17722.308350324,"data":"    2     1   M_ohne_f2_s1_trainiert gelb_bewegt  0.196 [0.188, 0.204] [0.188, 0.205]    1786         19     35720\n"}
+,{"stream_name":"stdout","time":17722.308353672,"data":"    2     1   M_ohne_f2_s1_trainiert    rot_alle  0.263 [0.228, 0.295] [0.227, 0.297]     210          4      4200\n"}
+,{"stream_name":"stdout","time":17722.308357285,"data":"    2     1   M_ohne_f2_s1_trainiert  rot_bewegt  0.262 [0.231, 0.295] [0.231, 0.294]     207          4      4140\n"}
+,{"stream_name":"stdout","time":17722.308361571,"data":"    3     0       dinov2_untrainiert   gelb_alle  0.129 [0.124, 0.134] [0.124, 0.135]    1994         19     39880\n"}
+,{"stream_name":"stdout","time":17722.308365712,"data":"    3     0       dinov2_untrainiert gelb_bewegt  0.125  [0.121, 0.13]   [0.12, 0.13]    1948         19     38960\n"}
+,{"stream_name":"stdout","time":17722.308369392,"data":"    3     0       dinov2_untrainiert    rot_alle  0.143 [0.097, 0.185] [0.118, 0.171]     168          4      3360\n"}
+,{"stream_name":"stdout","time":17722.308373108,"data":"    3     0       dinov2_untrainiert  rot_bewegt  0.128 [0.089, 0.163] [0.107, 0.149]     162          4      3240\n"}
+,{"stream_name":"stdout","time":17722.308377679,"data":"    3     0              pixel_32x32   gelb_alle  0.110 [0.105, 0.116] [0.105, 0.115]    1994         19     39880\n"}
+,{"stream_name":"stdout","time":17722.308381153,"data":"    3     0              pixel_32x32 gelb_bewegt  0.106 [0.102, 0.111] [0.102, 0.111]    1948         19     38960\n"}
+,{"stream_name":"stdout","time":17722.308384768,"data":"    3     0              pixel_32x32    rot_alle  0.105 [0.092, 0.124] [0.087, 0.126]     168          4      3360\n"}
+,{"stream_name":"stdout","time":17722.308388404,"data":"    3     0              pixel_32x32  rot_bewegt  0.090 [0.079, 0.101] [0.077, 0.104]     162          4      3240\n"}
+,{"stream_name":"stdout","time":17722.308396248,"data":"    3     0        M_ohne_f3_s0_kopf   gelb_alle  0.144 [0.138, 0.151] [0.138, 0.151]    1994         19     39880\n"}
+,{"stream_name":"stdout","time":17722.308400108,"data":"    3     0        M_ohne_f3_s0_kopf gelb_bewegt  0.141 [0.136, 0.146] [0.135, 0.147]    1948         19     38960\n"}
+,{"stream_name":"stdout","time":17722.308404144,"data":"    3     0        M_ohne_f3_s0_kopf    rot_alle  0.164 [0.116, 0.218] [0.137, 0.193]     168          4      3360\n"}
+,{"stream_name":"stdout","time":17722.30840763,"data":"    3     0        M_ohne_f3_s0_kopf  rot_bewegt  0.150 [0.109, 0.199] [0.126, 0.173]     162          4      3240\n"}
+,{"stream_name":"stdout","time":17722.3084113,"data":"    3     0   M_ohne_f3_s0_trainiert   gelb_alle  0.183  [0.176, 0.19] [0.175, 0.191]    1994         19     39880\n"}
+,{"stream_name":"stdout","time":17722.308415192,"data":"    3     0   M_ohne_f3_s0_trainiert gelb_bewegt  0.178 [0.172, 0.183]  [0.17, 0.185]    1948         19     38960\n"}
+,{"stream_name":"stdout","time":17722.30841878,"data":"    3     0   M_ohne_f3_s0_trainiert    rot_alle  0.240  [0.201, 0.28] [0.204, 0.277]     168          4      3360\n"}
+,{"stream_name":"stdout","time":17722.308422453,"data":"    3     0   M_ohne_f3_s0_trainiert  rot_bewegt  0.227 [0.193, 0.266]  [0.195, 0.26]     162          4      3240\n"}
+,{"stream_name":"stdout","time":17722.308426211,"data":"    3     1        M_ohne_f3_s1_kopf   gelb_alle  0.144  [0.139, 0.15] [0.139, 0.151]    1994         19     39880\n"}
+,{"stream_name":"stdout","time":17722.308429933,"data":"    3     1        M_ohne_f3_s1_kopf gelb_bewegt  0.141 [0.137, 0.146] [0.135, 0.147]    1948         19     38960\n"}
+,{"stream_name":"stdout","time":17722.308433838,"data":"    3     1        M_ohne_f3_s1_kopf    rot_alle  0.165 [0.122, 0.213] [0.138, 0.192]     168          4      3360\n"}
+,{"stream_name":"stdout","time":17722.308437816,"data":"    3     1        M_ohne_f3_s1_kopf  rot_bewegt  0.151 [0.116, 0.191] [0.127, 0.175]     162          4      3240\n"}
+,{"stream_name":"stdout","time":17722.308441663,"data":"    3     1   M_ohne_f3_s1_trainiert   gelb_alle  0.190 [0.183, 0.196] [0.181, 0.198]    1994         19     39880\n"}
+,{"stream_name":"stdout","time":17722.308445473,"data":"    3     1   M_ohne_f3_s1_trainiert gelb_bewegt  0.184 [0.179, 0.191] [0.176, 0.192]    1948         19     38960\n"}
+,{"stream_name":"stdout","time":17722.30844958,"data":"    3     1   M_ohne_f3_s1_trainiert    rot_alle  0.234 [0.182, 0.277] [0.198, 0.274]     168          4      3360\n"}
+,{"stream_name":"stdout","time":17722.3084533,"data":"    3     1   M_ohne_f3_s1_trainiert  rot_bewegt  0.221  [0.17, 0.269] [0.185, 0.256]     162          4      3240\n"}
+,{"stream_name":"stdout","time":17722.308457647,"data":"    1     1      M_streng_f1_s1_kopf   gelb_alle  0.168 [0.158, 0.177]  [0.16, 0.176]    1850         19     37000\n"}
+,{"stream_name":"stdout","time":17722.308461793,"data":"    1     1      M_streng_f1_s1_kopf gelb_bewegt  0.147 [0.141, 0.154]  [0.14, 0.153]    1739         19     34780\n"}
+,{"stream_name":"stdout","time":17722.30846563,"data":"    1     1      M_streng_f1_s1_kopf    rot_alle  0.157 [0.142, 0.185] [0.133, 0.182]     176          4      3520\n"}
+,{"stream_name":"stdout","time":17722.308469763,"data":"    1     1      M_streng_f1_s1_kopf  rot_bewegt  0.158 [0.144, 0.188] [0.134, 0.182]     173          4      3460\n"}
+,{"stream_name":"stdout","time":17722.308473549,"data":"    1     1 M_streng_f1_s1_trainiert   gelb_alle  0.219 [0.207, 0.231]  [0.209, 0.23]    1850         19     37000\n"}
+,{"stream_name":"stdout","time":17722.308477237,"data":"    1     1 M_streng_f1_s1_trainiert gelb_bewegt  0.194 [0.184, 0.204] [0.186, 0.203]    1739         19     34780\n"}
+,{"stream_name":"stdout","time":17722.308486127,"data":"    1     1 M_streng_f1_s1_trainiert    rot_alle  0.217 [0.184, 0.271] [0.184, 0.251]     176          4      3520\n"}
+,{"stream_name":"stdout","time":17722.308490956,"data":"    1     1 M_streng_f1_s1_trainiert  rot_bewegt  0.215 [0.185, 0.257] [0.183, 0.248]     173          4      3460\n"}
+,{"stream_name":"stdout","time":17722.308494918,"data":"    2     0      M_streng_f2_s0_kopf   gelb_alle  0.158 [0.151, 0.165] [0.151, 0.165]    1857         19     37140\n"}
+,{"stream_name":"stdout","time":17722.308498867,"data":"    2     0      M_streng_f2_s0_kopf gelb_bewegt  0.151 [0.145, 0.156] [0.145, 0.158]    1786         19     35720\n"}
+,{"stream_name":"stdout","time":17722.308503302,"data":"    2     0      M_streng_f2_s0_kopf    rot_alle  0.181 [0.154, 0.202] [0.156, 0.205]     210          4      4200\n"}
+,{"stream_name":"stdout","time":17722.308507526,"data":"    2     0      M_streng_f2_s0_kopf  rot_bewegt  0.178 [0.156, 0.202] [0.155, 0.203]     207          4      4140\n"}
+,{"stream_name":"stdout","time":17722.308511712,"data":"    2     0 M_streng_f2_s0_trainiert   gelb_alle  0.210  [0.201, 0.22] [0.202, 0.219]    1857         19     37140\n"}
+,{"stream_name":"stdout","time":17722.308516376,"data":"    2     0 M_streng_f2_s0_trainiert gelb_bewegt  0.201  [0.192, 0.21]  [0.193, 0.21]    1786         19     35720\n"}
+,{"stream_name":"stdout","time":17722.308520526,"data":"    2     0 M_streng_f2_s0_trainiert    rot_alle  0.250 [0.212, 0.289] [0.218, 0.282]     210          4      4200\n"}
+,{"stream_name":"stdout","time":17722.308536159,"data":"    2     0 M_streng_f2_s0_trainiert  rot_bewegt  0.248 [0.209, 0.289]  [0.217, 0.28]     207          4      4140\n"}
+,{"stream_name":"stdout","time":17722.30854107,"data":"    2     1      M_streng_f2_s1_kopf   gelb_alle  0.160 [0.152, 0.168] [0.153, 0.167]    1857         19     37140\n"}
+,{"stream_name":"stdout","time":17722.308544873,"data":"    2     1      M_streng_f2_s1_kopf gelb_bewegt  0.153 [0.147, 0.159]  [0.146, 0.16]    1786         19     35720\n"}
+,{"stream_name":"stdout","time":17722.308548675,"data":"    2     1      M_streng_f2_s1_kopf    rot_alle  0.184  [0.16, 0.204]  [0.16, 0.208]     210          4      4200\n"}
+,{"stream_name":"stdout","time":17722.308552346,"data":"    2     1      M_streng_f2_s1_kopf  rot_bewegt  0.181  [0.16, 0.204] [0.159, 0.205]     207          4      4140\n"}
+,{"stream_name":"stdout","time":17722.308556012,"data":"    2     1 M_streng_f2_s1_trainiert   gelb_alle  0.212 [0.204, 0.221] [0.203, 0.222]    1857         19     37140\n"}
+,{"stream_name":"stdout","time":17722.308559732,"data":"    2     1 M_streng_f2_s1_trainiert gelb_bewegt  0.202  [0.195, 0.21] [0.194, 0.212]    1786         19     35720\n"}
+,{"stream_name":"stdout","time":17722.308563362,"data":"    2     1 M_streng_f2_s1_trainiert    rot_alle  0.260 [0.222, 0.289] [0.225, 0.292]     210          4      4200\n"}
+,{"stream_name":"stdout","time":17722.30856679,"data":"    2     1 M_streng_f2_s1_trainiert  rot_bewegt  0.257 [0.224, 0.289]  [0.225, 0.29]     207          4      4140\n"}
+,{"stream_name":"stdout","time":17722.308575927,"data":"    3     0      M_streng_f3_s0_kopf   gelb_alle  0.146 [0.141, 0.152]  [0.14, 0.153]    1994         19     39880\n"}
+,{"stream_name":"stdout","time":17722.308579438,"data":"    3     0      M_streng_f3_s0_kopf gelb_bewegt  0.143 [0.138, 0.148] [0.137, 0.149]    1948         19     38960\n"}
+,{"stream_name":"stdout","time":17722.30858204,"data":"    3     0      M_streng_f3_s0_kopf    rot_alle  0.159  [0.12, 0.203] [0.134, 0.187]     168          4      3360\n"}
+,{"stream_name":"stdout","time":17722.308584515,"data":"    3     0      M_streng_f3_s0_kopf  rot_bewegt  0.147 [0.113, 0.187] [0.123, 0.171]     162          4      3240\n"}
+,{"stream_name":"stdout","time":17722.308590297,"data":"    3     0 M_streng_f3_s0_trainiert   gelb_alle  0.182 [0.175, 0.189]  [0.174, 0.19]    1994         19     39880\n"}
+,{"stream_name":"stdout","time":17722.308593129,"data":"    3     0 M_streng_f3_s0_trainiert gelb_bewegt  0.177  [0.17, 0.183] [0.169, 0.184]    1948         19     38960\n"}
+,{"stream_name":"stdout","time":17722.308595893,"data":"    3     0 M_streng_f3_s0_trainiert    rot_alle  0.235 [0.188, 0.278] [0.201, 0.272]     168          4      3360\n"}
+,{"stream_name":"stdout","time":17722.308598383,"data":"    3     0 M_streng_f3_s0_trainiert  rot_bewegt  0.224 [0.179, 0.268]  [0.19, 0.256]     162          4      3240\n"}
+,{"stream_name":"stdout","time":17722.308601078,"data":"    3     1      M_streng_f3_s1_kopf   gelb_alle  0.143 [0.137, 0.149]  [0.137, 0.15]    1994         19     39880\n"}
+,{"stream_name":"stdout","time":17722.308621388,"data":"    3     1      M_streng_f3_s1_kopf gelb_bewegt  0.140 [0.135, 0.145] [0.134, 0.146]    1948         19     38960\n"}
+,{"stream_name":"stdout","time":17722.308637033,"data":"    3     1      M_streng_f3_s1_kopf    rot_alle  0.170 [0.128, 0.218] [0.141, 0.198]     168          4      3360\n"}
+,{"stream_name":"stdout","time":17722.308640956,"data":"    3     1      M_streng_f3_s1_kopf  rot_bewegt  0.157 [0.121, 0.199] [0.132, 0.181]     162          4      3240\n"}
+,{"stream_name":"stdout","time":17722.308645038,"data":"    3     1 M_streng_f3_s1_trainiert   gelb_alle  0.188  [0.18, 0.195]  [0.18, 0.196]    1994         19     39880\n"}
+,{"stream_name":"stdout","time":17722.308649199,"data":"    3     1 M_streng_f3_s1_trainiert gelb_bewegt  0.182  [0.175, 0.19]  [0.173, 0.19]    1948         19     38960\n"}
+,{"stream_name":"stdout","time":17722.30865325,"data":"    3     1 M_streng_f3_s1_trainiert    rot_alle  0.232 [0.197, 0.258] [0.197, 0.269]     168          4      3360\n"}
+,{"stream_name":"stdout","time":17722.308657228,"data":"    3     1 M_streng_f3_s1_trainiert  rot_bewegt  0.219 [0.186, 0.247] [0.183, 0.251]     162          4      3240\n"}
+,{"stream_name":"stdout","time":17722.30915463,"data":"FERTIG 4.92 h\n"}
+,{"stream_name":"stderr","time":17724.908517266,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":17724.908549759,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":17725.081435162,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":17725.08145976,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":17725.850037555,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":17725.948143126,"data":"[NbConvertApp] Writing 60849 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":17728.417015523,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":17728.930545989,"data":"[NbConvertApp] Writing 349784 bytes to __results__.html\n"}
+]

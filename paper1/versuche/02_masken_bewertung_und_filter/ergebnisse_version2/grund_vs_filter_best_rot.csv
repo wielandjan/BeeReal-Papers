@@ -1,0 +1,10 @@
+grund,1_unsicher,3_am_rand,4_groesse,5_form,behalten
+1_mehrere_bienen,7,0,2,0,2
+2_nur_teil_der_biene,3,0,0,0,0
+3_umriss_falsch,2,0,0,0,0
+5_verdeckt,2,0,1,1,0
+6_von_vorn_oder_seite,7,0,5,4,11
+7_unscharf,15,0,3,1,4
+9_sonstiges,3,0,1,1,1
+gut,3,2,2,5,17
+sehr_gut,2,0,0,12,31

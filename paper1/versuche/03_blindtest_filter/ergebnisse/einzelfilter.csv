@@ -1,0 +1,53 @@
+stock,filter,wert,weg_prozent
+gelb,Sicherheit <,0.3,0.0
+gelb,Sicherheit <,0.4,11.4
+gelb,Sicherheit <,0.5,20.6
+gelb,Sicherheit <,0.6,30.0
+gelb,Sicherheit <,0.7,41.8
+gelb,Größe > x·typisch,1.5,5.1
+gelb,Größe > x·typisch,1.7,2.4
+gelb,Größe > x·typisch,2.0,0.7
+gelb,Größe > x·typisch,2.5,0.1
+gelb,Größe < x·typisch,0.4,1.3
+gelb,Größe < x·typisch,0.5,3.1
+gelb,Größe < x·typisch,0.6,7.2
+gelb,Randkante > x·Länge,0.15,0.7
+gelb,Randkante > x·Länge,0.3,0.6
+gelb,Randkante > x·Länge,0.5,0.4
+gelb,Längenverhältnis < x·typisch,0.65,4.6
+gelb,Längenverhältnis < x·typisch,0.75,15.8
+gelb,Längenverhältnis < x·typisch,0.85,28.2
+gelb,Kompaktheit < x·typisch,0.85,9.3
+gelb,Kompaktheit < x·typisch,0.9,13.4
+gelb,Kompaktheit < x·typisch,0.95,23.0
+gelb,Schärfe < x·typisch,0.3,0.0
+gelb,Schärfe < x·typisch,0.4,0.2
+gelb,Schärfe < x·typisch,0.5,1.2
+gelb,Schärfe < x·typisch,0.6,5.6
+gelb,Schärfe < x·typisch,0.7,14.3
+rot,Sicherheit <,0.3,0.0
+rot,Sicherheit <,0.4,11.9
+rot,Sicherheit <,0.5,19.0
+rot,Sicherheit <,0.6,24.0
+rot,Sicherheit <,0.7,32.0
+rot,Größe > x·typisch,1.5,3.6
+rot,Größe > x·typisch,1.7,1.7
+rot,Größe > x·typisch,2.0,0.8
+rot,Größe > x·typisch,2.5,0.1
+rot,Größe < x·typisch,0.4,10.6
+rot,Größe < x·typisch,0.5,15.7
+rot,Größe < x·typisch,0.6,21.6
+rot,Randkante > x·Länge,0.15,10.5
+rot,Randkante > x·Länge,0.3,9.2
+rot,Randkante > x·Länge,0.5,6.8
+rot,Längenverhältnis < x·typisch,0.65,6.1
+rot,Längenverhältnis < x·typisch,0.75,17.3
+rot,Längenverhältnis < x·typisch,0.85,31.4
+rot,Kompaktheit < x·typisch,0.85,9.5
+rot,Kompaktheit < x·typisch,0.9,17.1
+rot,Kompaktheit < x·typisch,0.95,29.6
+rot,Schärfe < x·typisch,0.3,0.1
+rot,Schärfe < x·typisch,0.4,0.2
+rot,Schärfe < x·typisch,0.5,0.4
+rot,Schärfe < x·typisch,0.6,1.1
+rot,Schärfe < x·typisch,0.7,2.7

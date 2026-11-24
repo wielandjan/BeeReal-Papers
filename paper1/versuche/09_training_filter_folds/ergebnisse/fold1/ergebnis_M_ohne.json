@@ -1,0 +1,543 @@
+{
+ "cfg": {
+  "name": "M_ohne",
+  "fold": 1,
+  "seed": 0,
+  "out": "/kaggle/working/",
+  "steps_head": 1000,
+  "steps_ft": 2000,
+  "eval_every": 500,
+  "draws": 20,
+  "gap": 600,
+  "nullmodell": true,
+  "hives": [
+   "gelb",
+   "rot"
+  ],
+  "filter": "ohne"
+ },
+ "daten": {
+  "gelb_train": {
+   "seqs": 38,
+   "tracks": 9536,
+   "crops": 332336
+  },
+  "gelb_val": {
+   "seqs": 19,
+   "tracks": 4528,
+   "crops": 156993
+  },
+  "rot_train": {
+   "seqs": 8,
+   "tracks": 936,
+   "crops": 31888
+  },
+  "rot_val": {
+   "seqs": 4,
+   "tracks": 530,
+   "crops": 17783
+  }
+ },
+ "ergebnisse": {
+  "dinov2_untrainiert": {
+   "gelb_alle": {
+    "versuche": 37000,
+    "tracks": 1850,
+    "sequenzen": 19,
+    "rank1": 0.154,
+    "rank3": 0.363,
+    "ci_sequenzen": [
+     0.144,
+     0.163
+    ],
+    "ci_tracks": [
+     0.146,
+     0.161
+    ],
+    "rank1_pro_sequenz": {
+     "rec2123_seq015": 0.142,
+     "rec2123_seq016": 0.164,
+     "rec2123_seq017": 0.159,
+     "rec2123_seq018": 0.163,
+     "rec2123_seq019": 0.17,
+     "rec2123_seq020": 0.209,
+     "rec2123_seq021": 0.187,
+     "rec2123_seq022": 0.177,
+     "rec2123_seq023": 0.14,
+     "rec2123_seq024": 0.157,
+     "rec2123_seq025": 0.156,
+     "rec2123_seq026": 0.154,
+     "rec2123_seq027": 0.131,
+     "rec2123_seq028": 0.112,
+     "rec2123_seq029": 0.124,
+     "rec2123_seq030": 0.152,
+     "rec2123_seq031": 0.169,
+     "rec2123_seq032": 0.13,
+     "rec2123_seq033": 0.141
+    }
+   },
+   "gelb_bewegt": {
+    "versuche": 34780,
+    "tracks": 1739,
+    "sequenzen": 19,
+    "rank1": 0.131,
+    "rank3": 0.342,
+    "ci_sequenzen": [
+     0.126,
+     0.138
+    ],
+    "ci_tracks": [
+     0.126,
+     0.137
+    ],
+    "rank1_pro_sequenz": {
+     "rec2123_seq015": 0.114,
+     "rec2123_seq016": 0.131,
+     "rec2123_seq017": 0.123,
+     "rec2123_seq018": 0.13,
+     "rec2123_seq019": 0.126,
+     "rec2123_seq020": 0.161,
+     "rec2123_seq021": 0.138,
+     "rec2123_seq022": 0.152,
+     "rec2123_seq023": 0.115,
+     "rec2123_seq024": 0.148,
+     "rec2123_seq025": 0.126,
+     "rec2123_seq026": 0.123,
+     "rec2123_seq027": 0.128,
+     "rec2123_seq028": 0.106,
+     "rec2123_seq029": 0.121,
+     "rec2123_seq030": 0.138,
+     "rec2123_seq031": 0.158,
+     "rec2123_seq032": 0.128,
+     "rec2123_seq033": 0.141
+    }
+   },
+   "rot_alle": {
+    "versuche": 3520,
+    "tracks": 176,
+    "sequenzen": 4,
+    "rank1": 0.138,
+    "rank3": 0.338,
+    "ci_sequenzen": [
+     0.117,
+     0.177
+    ],
+    "ci_tracks": [
+     0.117,
+     0.159
+    ],
+    "rank1_pro_sequenz": {
+     "rec2125_seq000": 0.211,
+     "rec2125_seq001": 0.11,
+     "rec2125_seq002": 0.132,
+     "rec2125_seq003": 0.143
+    }
+   },
+   "rot_bewegt": {
+    "versuche": 3460,
+    "tracks": 173,
+    "sequenzen": 4,
+    "rank1": 0.137,
+    "rank3": 0.338,
+    "ci_sequenzen": [
+     0.118,
+     0.171
+    ],
+    "ci_tracks": [
+     0.117,
+     0.158
+    ],
+    "rank1_pro_sequenz": {
+     "rec2125_seq000": 0.2,
+     "rec2125_seq001": 0.11,
+     "rec2125_seq002": 0.135,
+     "rec2125_seq003": 0.143
+    }
+   }
+  },
+  "pixel_32x32": {
+   "gelb_alle": {
+    "versuche": 37000,
+    "tracks": 1850,
+    "sequenzen": 19,
+    "rank1": 0.137,
+    "rank3": 0.336,
+    "ci_sequenzen": [
+     0.127,
+     0.147
+    ],
+    "ci_tracks": [
+     0.131,
+     0.145
+    ],
+    "rank1_pro_sequenz": {
+     "rec2123_seq015": 0.11,
+     "rec2123_seq016": 0.126,
+     "rec2123_seq017": 0.155,
+     "rec2123_seq018": 0.132,
+     "rec2123_seq019": 0.146,
+     "rec2123_seq020": 0.177,
+     "rec2123_seq021": 0.165,
+     "rec2123_seq022": 0.159,
+     "rec2123_seq023": 0.16,
+     "rec2123_seq024": 0.164,
+     "rec2123_seq025": 0.148,
+     "rec2123_seq026": 0.147,
+     "rec2123_seq027": 0.142,
+     "rec2123_seq028": 0.114,
+     "rec2123_seq029": 0.105,
+     "rec2123_seq030": 0.147,
+     "rec2123_seq031": 0.109,
+     "rec2123_seq032": 0.118,
+     "rec2123_seq033": 0.095
+    }
+   },
+   "gelb_bewegt": {
+    "versuche": 34780,
+    "tracks": 1739,
+    "sequenzen": 19,
+    "rank1": 0.116,
+    "rank3": 0.314,
+    "ci_sequenzen": [
+     0.11,
+     0.124
+    ],
+    "ci_tracks": [
+     0.111,
+     0.121
+    ],
+    "rank1_pro_sequenz": {
+     "rec2123_seq015": 0.092,
+     "rec2123_seq016": 0.097,
+     "rec2123_seq017": 0.128,
+     "rec2123_seq018": 0.108,
+     "rec2123_seq019": 0.11,
+     "rec2123_seq020": 0.133,
+     "rec2123_seq021": 0.117,
+     "rec2123_seq022": 0.134,
+     "rec2123_seq023": 0.132,
+     "rec2123_seq024": 0.148,
+     "rec2123_seq025": 0.121,
+     "rec2123_seq026": 0.111,
+     "rec2123_seq027": 0.139,
+     "rec2123_seq028": 0.106,
+     "rec2123_seq029": 0.1,
+     "rec2123_seq030": 0.129,
+     "rec2123_seq031": 0.099,
+     "rec2123_seq032": 0.113,
+     "rec2123_seq033": 0.095
+    }
+   },
+   "rot_alle": {
+    "versuche": 3520,
+    "tracks": 176,
+    "sequenzen": 4,
+    "rank1": 0.111,
+    "rank3": 0.305,
+    "ci_sequenzen": [
+     0.099,
+     0.126
+    ],
+    "ci_tracks": [
+     0.095,
+     0.129
+    ],
+    "rank1_pro_sequenz": {
+     "rec2125_seq000": 0.1,
+     "rec2125_seq001": 0.098,
+     "rec2125_seq002": 0.109,
+     "rec2125_seq003": 0.132
+    }
+   },
+   "rot_bewegt": {
+    "versuche": 3460,
+    "tracks": 173,
+    "sequenzen": 4,
+    "rank1": 0.111,
+    "rank3": 0.304,
+    "ci_sequenzen": [
+     0.098,
+     0.127
+    ],
+    "ci_tracks": [
+     0.095,
+     0.128
+    ],
+    "rank1_pro_sequenz": {
+     "rec2125_seq000": 0.098,
+     "rec2125_seq001": 0.098,
+     "rec2125_seq002": 0.111,
+     "rec2125_seq003": 0.132
+    }
+   }
+  },
+  "M_ohne_kopf": {
+   "gelb_alle": {
+    "versuche": 37000,
+    "tracks": 1850,
+    "sequenzen": 19,
+    "rank1": 0.17,
+    "rank3": 0.4,
+    "ci_sequenzen": [
+     0.16,
+     0.18
+    ],
+    "ci_tracks": [
+     0.162,
+     0.178
+    ],
+    "rank1_pro_sequenz": {
+     "rec2123_seq015": 0.16,
+     "rec2123_seq016": 0.169,
+     "rec2123_seq017": 0.179,
+     "rec2123_seq018": 0.199,
+     "rec2123_seq019": 0.194,
+     "rec2123_seq020": 0.223,
+     "rec2123_seq021": 0.181,
+     "rec2123_seq022": 0.173,
+     "rec2123_seq023": 0.181,
+     "rec2123_seq024": 0.159,
+     "rec2123_seq025": 0.188,
+     "rec2123_seq026": 0.178,
+     "rec2123_seq027": 0.145,
+     "rec2123_seq028": 0.133,
+     "rec2123_seq029": 0.14,
+     "rec2123_seq030": 0.158,
+     "rec2123_seq031": 0.198,
+     "rec2123_seq032": 0.137,
+     "rec2123_seq033": 0.147
+    }
+   },
+   "gelb_bewegt": {
+    "versuche": 34780,
+    "tracks": 1739,
+    "sequenzen": 19,
+    "rank1": 0.147,
+    "rank3": 0.379,
+    "ci_sequenzen": [
+     0.142,
+     0.154
+    ],
+    "ci_tracks": [
+     0.141,
+     0.153
+    ],
+    "rank1_pro_sequenz": {
+     "rec2123_seq015": 0.139,
+     "rec2123_seq016": 0.136,
+     "rec2123_seq017": 0.143,
+     "rec2123_seq018": 0.167,
+     "rec2123_seq019": 0.151,
+     "rec2123_seq020": 0.178,
+     "rec2123_seq021": 0.135,
+     "rec2123_seq022": 0.145,
+     "rec2123_seq023": 0.156,
+     "rec2123_seq024": 0.146,
+     "rec2123_seq025": 0.157,
+     "rec2123_seq026": 0.142,
+     "rec2123_seq027": 0.141,
+     "rec2123_seq028": 0.127,
+     "rec2123_seq029": 0.135,
+     "rec2123_seq030": 0.145,
+     "rec2123_seq031": 0.185,
+     "rec2123_seq032": 0.133,
+     "rec2123_seq033": 0.148
+    }
+   },
+   "rot_alle": {
+    "versuche": 3520,
+    "tracks": 176,
+    "sequenzen": 4,
+    "rank1": 0.157,
+    "rank3": 0.389,
+    "ci_sequenzen": [
+     0.145,
+     0.186
+    ],
+    "ci_tracks": [
+     0.136,
+     0.181
+    ],
+    "rank1_pro_sequenz": {
+     "rec2125_seq000": 0.218,
+     "rec2125_seq001": 0.145,
+     "rec2125_seq002": 0.144,
+     "rec2125_seq003": 0.157
+    }
+   },
+   "rot_bewegt": {
+    "versuche": 3460,
+    "tracks": 173,
+    "sequenzen": 4,
+    "rank1": 0.158,
+    "rank3": 0.39,
+    "ci_sequenzen": [
+     0.147,
+     0.185
+    ],
+    "ci_tracks": [
+     0.135,
+     0.182
+    ],
+    "rank1_pro_sequenz": {
+     "rec2125_seq000": 0.214,
+     "rec2125_seq001": 0.147,
+     "rec2125_seq002": 0.147,
+     "rec2125_seq003": 0.157
+    }
+   }
+  },
+  "M_ohne_trainiert": {
+   "gelb_alle": {
+    "versuche": 37000,
+    "tracks": 1850,
+    "sequenzen": 19,
+    "rank1": 0.213,
+    "rank3": 0.454,
+    "ci_sequenzen": [
+     0.2,
+     0.226
+    ],
+    "ci_tracks": [
+     0.203,
+     0.224
+    ],
+    "rank1_pro_sequenz": {
+     "rec2123_seq015": 0.213,
+     "rec2123_seq016": 0.172,
+     "rec2123_seq017": 0.214,
+     "rec2123_seq018": 0.226,
+     "rec2123_seq019": 0.252,
+     "rec2123_seq020": 0.272,
+     "rec2123_seq021": 0.246,
+     "rec2123_seq022": 0.223,
+     "rec2123_seq023": 0.212,
+     "rec2123_seq024": 0.208,
+     "rec2123_seq025": 0.256,
+     "rec2123_seq026": 0.219,
+     "rec2123_seq027": 0.171,
+     "rec2123_seq028": 0.178,
+     "rec2123_seq029": 0.181,
+     "rec2123_seq030": 0.231,
+     "rec2123_seq031": 0.233,
+     "rec2123_seq032": 0.174,
+     "rec2123_seq033": 0.181
+    }
+   },
+   "gelb_bewegt": {
+    "versuche": 34780,
+    "tracks": 1739,
+    "sequenzen": 19,
+    "rank1": 0.188,
+    "rank3": 0.433,
+    "ci_sequenzen": [
+     0.178,
+     0.198
+    ],
+    "ci_tracks": [
+     0.18,
+     0.197
+    ],
+    "rank1_pro_sequenz": {
+     "rec2123_seq015": 0.184,
+     "rec2123_seq016": 0.131,
+     "rec2123_seq017": 0.177,
+     "rec2123_seq018": 0.192,
+     "rec2123_seq019": 0.207,
+     "rec2123_seq020": 0.224,
+     "rec2123_seq021": 0.198,
+     "rec2123_seq022": 0.194,
+     "rec2123_seq023": 0.187,
+     "rec2123_seq024": 0.196,
+     "rec2123_seq025": 0.224,
+     "rec2123_seq026": 0.177,
+     "rec2123_seq027": 0.166,
+     "rec2123_seq028": 0.165,
+     "rec2123_seq029": 0.175,
+     "rec2123_seq030": 0.213,
+     "rec2123_seq031": 0.219,
+     "rec2123_seq032": 0.171,
+     "rec2123_seq033": 0.185
+    }
+   },
+   "rot_alle": {
+    "versuche": 3520,
+    "tracks": 176,
+    "sequenzen": 4,
+    "rank1": 0.221,
+    "rank3": 0.464,
+    "ci_sequenzen": [
+     0.2,
+     0.269
+    ],
+    "ci_tracks": [
+     0.19,
+     0.257
+    ],
+    "rank1_pro_sequenz": {
+     "rec2125_seq000": 0.311,
+     "rec2125_seq001": 0.195,
+     "rec2125_seq002": 0.214,
+     "rec2125_seq003": 0.219
+    }
+   },
+   "rot_bewegt": {
+    "versuche": 3460,
+    "tracks": 173,
+    "sequenzen": 4,
+    "rank1": 0.221,
+    "rank3": 0.466,
+    "ci_sequenzen": [
+     0.2,
+     0.262
+    ],
+    "ci_tracks": [
+     0.187,
+     0.255
+    ],
+    "rank1_pro_sequenz": {
+     "rec2125_seq000": 0.298,
+     "rec2125_seq001": 0.194,
+     "rec2125_seq002": 0.218,
+     "rec2125_seq003": 0.219
+    }
+   }
+  }
+ },
+ "verlauf": {
+  "M_ohne_kopf": [
+   {
+    "step": 500,
+    "loss": 0.1829,
+    "val_rank1": 0.174
+   },
+   {
+    "step": 1000,
+    "loss": 0.1917,
+    "val_rank1": 0.168
+   }
+  ],
+  "M_ohne_trainiert": [
+   {
+    "step": 500,
+    "loss": 0.1741,
+    "val_rank1": 0.191
+   },
+   {
+    "step": 1000,
+    "loss": 0.1646,
+    "val_rank1": 0.204
+   },
+   {
+    "step": 1500,
+    "loss": 0.1728,
+    "val_rank1": 0.24
+   },
+   {
+    "step": 2000,
+    "loss": 0.1759,
+    "val_rank1": 0.214
+   }
+  ]
+ }
+}

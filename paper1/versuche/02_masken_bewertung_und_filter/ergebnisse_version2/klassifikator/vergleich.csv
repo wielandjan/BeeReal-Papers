@@ -1,0 +1,7 @@
+stock,merkmale,auc,ausbeute,genauigkeit,regel_genauigkeit,ohne_filter
+gelb,messwerte,0.78,0.797,0.638,0.607,0.427
+gelb,dinov2,0.782,0.797,0.646,0.607,0.427
+gelb,beides,0.789,0.797,0.689,0.607,0.427
+rot,messwerte,0.831,0.649,0.774,0.727,0.493
+rot,dinov2,0.867,0.649,0.873,0.727,0.493
+rot,beides,0.878,0.649,0.873,0.727,0.493

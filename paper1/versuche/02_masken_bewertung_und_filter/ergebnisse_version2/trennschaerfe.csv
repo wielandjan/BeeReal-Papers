@@ -1,0 +1,15 @@
+stock,grund,n,score,border,size_rel,elong_rel,solidity_rel,sharp_rel,parts
+gelb,1_mehrere_bienen,18,0.92,0.5,0.42,0.66,0.73,0.33,0.5
+gelb,3_umriss_falsch,3,0.91,0.5,0.73,0.74,0.62,0.24,0.5
+gelb,5_verdeckt,1,0.97,0.5,1.0,0.98,0.08,0.53,0.5
+gelb,6_von_vorn_oder_seite,21,0.75,0.5,0.68,0.67,0.34,0.49,0.48
+gelb,7_unscharf,40,0.71,0.5,0.72,0.52,0.43,0.4,0.5
+gelb,8_keine_biene,2,0.95,0.5,0.99,0.96,0.27,0.52,0.5
+gelb,ohne_grund,1,0.98,0.5,0.0,0.06,0.94,0.69,0.5
+rot,1_mehrere_bienen,11,0.96,0.47,0.33,0.58,0.54,0.67,0.5
+rot,2_nur_teil_der_biene,3,1.0,0.55,0.97,0.81,0.98,0.32,0.5
+rot,3_umriss_falsch,2,0.97,0.55,0.91,0.78,0.58,0.54,0.5
+rot,5_verdeckt,4,0.78,0.55,0.78,0.61,0.48,0.46,0.5
+rot,6_von_vorn_oder_seite,27,0.78,0.54,0.59,0.57,0.39,0.4,0.5
+rot,7_unscharf,23,0.89,0.49,0.96,0.65,0.45,0.58,0.5
+rot,9_sonstiges,6,0.88,0.55,0.54,0.35,0.49,0.59,0.5

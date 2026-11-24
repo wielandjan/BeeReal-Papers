@@ -1,0 +1,37 @@
+[
+ {
+  "sid": "rec2123_seq065",
+  "bilder": 50,
+  "ok": false,
+  "rc": 1,
+  "ende": "rch.OutOfMemoryError: CUDA out of memory. Tried to allocate 5.23 GiB. GPU 0 has a total capacity of 14.56 GiB of which 5.08 GiB is free. Including non-PyTorch memory, this process has 9.48 GiB memory in use. Of the allocated memory 9.14 GiB is allocated by PyTorch, and 207.53 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)\n"
+ },
+ {
+  "sid": "rec2125_seq012",
+  "bilder": 100,
+  "ok": false,
+  "rc": 1,
+  "ende": "tOfMemoryError: CUDA out of memory. Tried to allocate 508.00 MiB. GPU 0 has a total capacity of 14.56 GiB of which 484.81 MiB is free. Including non-PyTorch memory, this process has 14.09 GiB memory in use. Of the allocated memory 13.45 GiB is allocated by PyTorch, and 515.11 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)\n"
+ },
+ {
+  "sid": "rec2123_seq065",
+  "bilder": 25,
+  "ok": false,
+  "rc": 1,
+  "ende": "rch.OutOfMemoryError: CUDA out of memory. Tried to allocate 5.23 GiB. GPU 0 has a total capacity of 14.56 GiB of which 5.08 GiB is free. Including non-PyTorch memory, this process has 9.48 GiB memory in use. Of the allocated memory 9.14 GiB is allocated by PyTorch, and 207.53 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)\n"
+ },
+ {
+  "sid": "rec2123_seq065",
+  "bilder": 12,
+  "ok": true,
+  "rc": 0,
+  "ende": ""
+ },
+ {
+  "sid": "rec2125_seq012",
+  "bilder": 50,
+  "ok": true,
+  "rc": 0,
+  "ende": ""
+ }
+]

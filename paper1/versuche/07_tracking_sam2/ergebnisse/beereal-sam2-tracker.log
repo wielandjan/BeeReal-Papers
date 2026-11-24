@@ -1,0 +1,27 @@
+[{"stream_name":"stderr","time":7.973595439,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.973636374,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.973640312,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.973643072,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.581553266,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.581583881,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.581589383,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.581593662,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":27.575872793,"data":"HF_LOGIN OK\n"}
+,{"stream_name":"stdout","time":879.99609488,"data":"GPU 1: OK rec2123_seq036 119 Tracks, Median 5.81 s, 354 s, 4.2 GB\n"}
+,{"stream_name":"stdout","time":879.996144923,"data":"OK rec2125_seq001 80 Tracks, Median 5.81 s, 257 s, 4.2 GB\n"}
+,{"stream_name":"stdout","time":879.996150802,"data":"OK rec2125_seq012 64 Tracks, Median 5.91 s, 211 s, 4.2 GB\n"}
+,{"stream_name":"stdout","time":879.996155579,"data":" \n"}
+,{"stream_name":"stdout","time":1136.76834045,"data":"GPU 0: OK rec2123_seq021 144 Tracks, Median 5.81 s, 431 s, 5.2 GB\n"}
+,{"stream_name":"stdout","time":1136.768385215,"data":"OK rec2123_seq073 148 Tracks, Median 5.81 s, 427 s, 5.2 GB\n"}
+,{"stream_name":"stdout","time":1136.768390809,"data":"OK rec2125_seq005 70 Tracks, Median 5.81 s, 226 s, 5.2 GB\n"}
+,{"stream_name":"stdout","time":1136.768395263,"data":" \n"}
+,{"stream_name":"stdout","time":1136.769415737,"data":"FERTIG 18.5 min ['sam2_rec2123_seq021.json', 'sam2_rec2123_seq036.json', 'sam2_rec2123_seq073.json', 'sam2_rec2125_seq001.json', 'sam2_rec2125_seq005.json', 'sam2_rec2125_seq012.json']\n"}
+,{"stream_name":"stderr","time":1139.291658609,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1139.291686523,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1139.466466072,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1139.466506864,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1140.226922662,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":1140.299599083,"data":"[NbConvertApp] Writing 12827 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":1142.799507624,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1143.294260819,"data":"[NbConvertApp] Writing 293549 bytes to __results__.html\n"}
+]

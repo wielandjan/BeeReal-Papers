@@ -1,0 +1,11 @@
+clip,verfahren,bienen_pro_bild,tracks,median_spanne_s,ab_2s,ab_5s,ab_9s,ab_20s,enden_mit_neuem_track_nah_prozent,luecke_median_s
+rec2123_seq065 10s,Basis: Positions-Tracker (≥0.3),104.3,556,1.0,203,80,30,0,87,0.8
+rec2123_seq065 10s,Basis: Positions-Tracker (≥0.5),80.1,302,1.3,123,68,38,0,82,0.8
+rec2123_seq065 10s,"ByteTrack-artig (hoch ≥0.5, tief ≥0.3)",104.3,273,2.1,139,82,41,0,77,0.9
+rec2123_seq065 10s,"ByteTrack-artig (hoch ≥0.7, tief ≥0.3)",104.3,169,4.4,115,79,46,0,53,1.0
+rec2123_seq065 10s,"ByteTrack-artig (hoch ≥0.7, tief ≥0.5)",80.1,191,3.0,107,63,37,0,67,0.9
+rec2125_seq012 10s,Basis: Positions-Tracker (≥0.3),42.4,285,0.7,76,29,6,0,82,0.8
+rec2125_seq012 10s,Basis: Positions-Tracker (≥0.5),34.5,135,1.4,56,23,14,0,72,1.0
+rec2125_seq012 10s,"ByteTrack-artig (hoch ≥0.5, tief ≥0.3)",42.4,144,1.6,64,24,10,0,74,1.4
+rec2125_seq012 10s,"ByteTrack-artig (hoch ≥0.7, tief ≥0.3)",42.4,73,3.7,51,26,18,0,60,1.3
+rec2125_seq012 10s,"ByteTrack-artig (hoch ≥0.7, tief ≥0.5)",34.5,75,3.9,52,26,15,0,65,0.1

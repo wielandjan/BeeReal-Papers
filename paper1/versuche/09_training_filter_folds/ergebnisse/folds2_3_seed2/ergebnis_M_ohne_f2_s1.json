@@ -1,0 +1,311 @@
+{
+ "cfg": {
+  "name": "M_ohne_f2_s1",
+  "fold": 2,
+  "seed": 1,
+  "out": "/kaggle/working/",
+  "steps_head": 1000,
+  "steps_ft": 2000,
+  "eval_every": 500,
+  "draws": 20,
+  "gap": 600,
+  "nullmodell": false,
+  "hives": [
+   "gelb",
+   "rot"
+  ],
+  "filter": "ohne"
+ },
+ "daten": {
+  "gelb_train": {
+   "seqs": 38,
+   "tracks": 9426,
+   "crops": 328382
+  },
+  "gelb_val": {
+   "seqs": 19,
+   "tracks": 4638,
+   "crops": 160947
+  },
+  "rot_train": {
+   "seqs": 8,
+   "tracks": 929,
+   "crops": 31388
+  },
+  "rot_val": {
+   "seqs": 4,
+   "tracks": 537,
+   "crops": 18283
+  }
+ },
+ "ergebnisse": {
+  "M_ohne_f2_s1_kopf": {
+   "gelb_alle": {
+    "versuche": 37140,
+    "tracks": 1857,
+    "sequenzen": 19,
+    "rank1": 0.16,
+    "rank3": 0.393,
+    "ci_sequenzen": [
+     0.152,
+     0.168
+    ],
+    "ci_tracks": [
+     0.153,
+     0.167
+    ],
+    "rank1_pro_sequenz": {
+     "rec2123_seq035": 0.154,
+     "rec2123_seq036": 0.184,
+     "rec2123_seq037": 0.131,
+     "rec2123_seq038": 0.139,
+     "rec2123_seq039": 0.148,
+     "rec2123_seq040": 0.151,
+     "rec2123_seq041": 0.16,
+     "rec2123_seq042": 0.153,
+     "rec2123_seq043": 0.164,
+     "rec2123_seq044": 0.15,
+     "rec2123_seq045": 0.173,
+     "rec2123_seq046": 0.193,
+     "rec2123_seq047": 0.14,
+     "rec2123_seq048": 0.149,
+     "rec2123_seq049": 0.174,
+     "rec2123_seq050": 0.159,
+     "rec2123_seq051": 0.17,
+     "rec2123_seq052": 0.198,
+     "rec2123_seq053": 0.149
+    }
+   },
+   "gelb_bewegt": {
+    "versuche": 35720,
+    "tracks": 1786,
+    "sequenzen": 19,
+    "rank1": 0.153,
+    "rank3": 0.386,
+    "ci_sequenzen": [
+     0.147,
+     0.159
+    ],
+    "ci_tracks": [
+     0.147,
+     0.16
+    ],
+    "rank1_pro_sequenz": {
+     "rec2123_seq035": 0.156,
+     "rec2123_seq036": 0.169,
+     "rec2123_seq037": 0.131,
+     "rec2123_seq038": 0.141,
+     "rec2123_seq039": 0.146,
+     "rec2123_seq040": 0.145,
+     "rec2123_seq041": 0.144,
+     "rec2123_seq042": 0.149,
+     "rec2123_seq043": 0.164,
+     "rec2123_seq044": 0.139,
+     "rec2123_seq045": 0.145,
+     "rec2123_seq046": 0.181,
+     "rec2123_seq047": 0.139,
+     "rec2123_seq048": 0.148,
+     "rec2123_seq049": 0.161,
+     "rec2123_seq050": 0.158,
+     "rec2123_seq051": 0.167,
+     "rec2123_seq052": 0.178,
+     "rec2123_seq053": 0.148
+    }
+   },
+   "rot_alle": {
+    "versuche": 4200,
+    "tracks": 210,
+    "sequenzen": 4,
+    "rank1": 0.182,
+    "rank3": 0.416,
+    "ci_sequenzen": [
+     0.151,
+     0.206
+    ],
+    "ci_tracks": [
+     0.158,
+     0.206
+    ],
+    "rank1_pro_sequenz": {
+     "rec2125_seq005": 0.202,
+     "rec2125_seq006": 0.211,
+     "rec2125_seq007": 0.184,
+     "rec2125_seq008": 0.135
+    }
+   },
+   "rot_bewegt": {
+    "versuche": 4140,
+    "tracks": 207,
+    "sequenzen": 4,
+    "rank1": 0.18,
+    "rank3": 0.415,
+    "ci_sequenzen": [
+     0.154,
+     0.206
+    ],
+    "ci_tracks": [
+     0.157,
+     0.204
+    ],
+    "rank1_pro_sequenz": {
+     "rec2125_seq005": 0.202,
+     "rec2125_seq006": 0.211,
+     "rec2125_seq007": 0.171,
+     "rec2125_seq008": 0.138
+    }
+   }
+  },
+  "M_ohne_f2_s1_trainiert": {
+   "gelb_alle": {
+    "versuche": 37140,
+    "tracks": 1857,
+    "sequenzen": 19,
+    "rank1": 0.206,
+    "rank3": 0.46,
+    "ci_sequenzen": [
+     0.197,
+     0.216
+    ],
+    "ci_tracks": [
+     0.197,
+     0.215
+    ],
+    "rank1_pro_sequenz": {
+     "rec2123_seq035": 0.223,
+     "rec2123_seq036": 0.207,
+     "rec2123_seq037": 0.171,
+     "rec2123_seq038": 0.192,
+     "rec2123_seq039": 0.212,
+     "rec2123_seq040": 0.198,
+     "rec2123_seq041": 0.21,
+     "rec2123_seq042": 0.199,
+     "rec2123_seq043": 0.237,
+     "rec2123_seq044": 0.198,
+     "rec2123_seq045": 0.197,
+     "rec2123_seq046": 0.229,
+     "rec2123_seq047": 0.208,
+     "rec2123_seq048": 0.189,
+     "rec2123_seq049": 0.213,
+     "rec2123_seq050": 0.175,
+     "rec2123_seq051": 0.209,
+     "rec2123_seq052": 0.261,
+     "rec2123_seq053": 0.189
+    }
+   },
+   "gelb_bewegt": {
+    "versuche": 35720,
+    "tracks": 1786,
+    "sequenzen": 19,
+    "rank1": 0.196,
+    "rank3": 0.451,
+    "ci_sequenzen": [
+     0.188,
+     0.204
+    ],
+    "ci_tracks": [
+     0.188,
+     0.205
+    ],
+    "rank1_pro_sequenz": {
+     "rec2123_seq035": 0.224,
+     "rec2123_seq036": 0.187,
+     "rec2123_seq037": 0.171,
+     "rec2123_seq038": 0.192,
+     "rec2123_seq039": 0.209,
+     "rec2123_seq040": 0.193,
+     "rec2123_seq041": 0.191,
+     "rec2123_seq042": 0.191,
+     "rec2123_seq043": 0.236,
+     "rec2123_seq044": 0.185,
+     "rec2123_seq045": 0.165,
+     "rec2123_seq046": 0.213,
+     "rec2123_seq047": 0.196,
+     "rec2123_seq048": 0.185,
+     "rec2123_seq049": 0.197,
+     "rec2123_seq050": 0.172,
+     "rec2123_seq051": 0.202,
+     "rec2123_seq052": 0.229,
+     "rec2123_seq053": 0.19
+    }
+   },
+   "rot_alle": {
+    "versuche": 4200,
+    "tracks": 210,
+    "sequenzen": 4,
+    "rank1": 0.263,
+    "rank3": 0.512,
+    "ci_sequenzen": [
+     0.228,
+     0.295
+    ],
+    "ci_tracks": [
+     0.227,
+     0.297
+    ],
+    "rank1_pro_sequenz": {
+     "rec2125_seq005": 0.285,
+     "rec2125_seq006": 0.306,
+     "rec2125_seq007": 0.257,
+     "rec2125_seq008": 0.21
+    }
+   },
+   "rot_bewegt": {
+    "versuche": 4140,
+    "tracks": 207,
+    "sequenzen": 4,
+    "rank1": 0.262,
+    "rank3": 0.511,
+    "ci_sequenzen": [
+     0.231,
+     0.295
+    ],
+    "ci_tracks": [
+     0.231,
+     0.294
+    ],
+    "rank1_pro_sequenz": {
+     "rec2125_seq005": 0.285,
+     "rec2125_seq006": 0.306,
+     "rec2125_seq007": 0.247,
+     "rec2125_seq008": 0.214
+    }
+   }
+  }
+ },
+ "verlauf": {
+  "M_ohne_f2_s1_kopf": [
+   {
+    "step": 500,
+    "loss": 0.1907,
+    "val_rank1": 0.151
+   },
+   {
+    "step": 1000,
+    "loss": 0.1833,
+    "val_rank1": 0.159
+   }
+  ],
+  "M_ohne_f2_s1_trainiert": [
+   {
+    "step": 500,
+    "loss": 0.1788,
+    "val_rank1": 0.193
+   },
+   {
+    "step": 1000,
+    "loss": 0.1779,
+    "val_rank1": 0.19
+   },
+   {
+    "step": 1500,
+    "loss": 0.1663,
+    "val_rank1": 0.181
+   },
+   {
+    "step": 2000,
+    "loss": 0.1715,
+    "val_rank1": 0.198
+   }
+  ]
+ }
+}

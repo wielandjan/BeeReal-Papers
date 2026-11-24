@@ -1,0 +1,35 @@
+{
+ "ausschnitte": [
+  {
+   "ausschnitt": "rec2123_seq021_0-15s",
+   "bilder": 75,
+   "erstes_bild": 1
+  },
+  {
+   "ausschnitt": "rec2123_seq036_0-15s",
+   "bilder": 75,
+   "erstes_bild": 76
+  },
+  {
+   "ausschnitt": "rec2123_seq073_0-15s",
+   "bilder": 75,
+   "erstes_bild": 151
+  },
+  {
+   "ausschnitt": "rec2125_seq001_0-15s",
+   "bilder": 75,
+   "erstes_bild": 226
+  },
+  {
+   "ausschnitt": "rec2125_seq005_0-15s",
+   "bilder": 75,
+   "erstes_bild": 301
+  },
+  {
+   "ausschnitt": "rec2125_seq012_0-15s",
+   "bilder": 75,
+   "erstes_bild": 376
+  }
+ ],
+ "segment_size": 75
+}

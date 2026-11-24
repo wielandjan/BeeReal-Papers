@@ -1,0 +1,9 @@
+hive,regel_behalten,modell_behalten,0.0,1.0
+gelb,False,False,35,3
+gelb,False,True,4,5
+gelb,True,False,9,8
+gelb,True,True,11,25
+rot,False,False,34,2
+rot,False,True,3,16
+rot,True,False,5,17
+rot,True,True,3,20

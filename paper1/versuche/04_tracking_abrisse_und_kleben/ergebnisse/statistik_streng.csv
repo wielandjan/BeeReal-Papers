@@ -1,0 +1,3 @@
+sid,tracks_vorher,tracks_nachher,klebestellen,median_vorher,median_nachher,ab10_vorher,ab10_nachher,ab100_vorher,ab100_nachher,luecke_median_bilder,dist_median,locker_tracks,locker_ab100
+rec2123_seq065,704,616,88,8.0,10.0,330,311,83,86,11.5,0.12,153,114
+rec2125_seq012,352,309,43,7.0,10.0,160,156,38,38,14.0,0.16,101,50

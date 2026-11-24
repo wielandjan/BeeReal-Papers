@@ -1,0 +1,25 @@
+stock,schritt,beschreibung,weg,weg_prozent,uebrig,uebrig_prozent,allein_weg_prozent
+gelb,0_sam3_gefunden,"alle Masken von SAM 3 (Sicherheit ≥ 0,3)",0,0.0,6262,100.0,0.0
+gelb,1_unsicher,SAM-3-Sicherheit < 0.5,1260,20.1,5002,79.9,20.1
+gelb,2_maske_kaputt,Maske < 40 px oder in mehrere Teile zerfallen,8,0.1,4994,79.8,0.5
+gelb,3_am_rand,Maske berührt den Rand des Brett-Ausschnitts (abgeschnitten),33,0.5,4961,79.2,1.0
+gelb,4_groesse,Fläche < 0.4× oder > 1.8× typische Biene (Teilstück oder mehrere Bienen),68,1.1,4893,78.1,2.7
+gelb,5_ueberlappung,mehr als 5 % der Maske von anderer Maske überdeckt,964,15.4,3929,62.7,33.6
+gelb,6_form,nicht länglich (Längen-Verhältnis < 1.5) oder ausgefranst (Kompaktheit < 0.8): von vorn/von der Seite/verdeckt,781,12.5,3148,50.3,29.8
+gelb,7_unscharf,Schärfe unter dem 20. Perzentil des Stocks,665,10.6,2483,39.7,20.0
+rot,0_sam3_gefunden,"alle Masken von SAM 3 (Sicherheit ≥ 0,3)",0,0.0,3617,100.0,0.0
+rot,1_unsicher,SAM-3-Sicherheit < 0.5,760,21.0,2857,79.0,21.0
+rot,2_maske_kaputt,Maske < 40 px oder in mehrere Teile zerfallen,6,0.2,2851,78.8,0.6
+rot,3_am_rand,Maske berührt den Rand des Brett-Ausschnitts (abgeschnitten),232,6.4,2619,72.4,7.7
+rot,4_groesse,Fläche < 0.4× oder > 1.8× typische Biene (Teilstück oder mehrere Bienen),128,3.5,2491,68.9,9.5
+rot,5_ueberlappung,mehr als 5 % der Maske von anderer Maske überdeckt,664,18.4,1827,50.5,41.2
+rot,6_form,nicht länglich (Längen-Verhältnis < 1.5) oder ausgefranst (Kompaktheit < 0.8): von vorn/von der Seite/verdeckt,534,14.8,1293,35.7,39.8
+rot,7_unscharf,Schärfe unter dem 20. Perzentil des Stocks,119,3.3,1174,32.5,20.0
+alle,0_sam3_gefunden,"alle Masken von SAM 3 (Sicherheit ≥ 0,3)",0,0.0,9879,100.0,0.0
+alle,1_unsicher,SAM-3-Sicherheit < 0.5,2020,20.4,7859,79.6,20.4
+alle,2_maske_kaputt,Maske < 40 px oder in mehrere Teile zerfallen,14,0.1,7845,79.4,0.5
+alle,3_am_rand,Maske berührt den Rand des Brett-Ausschnitts (abgeschnitten),265,2.7,7580,76.7,3.5
+alle,4_groesse,Fläche < 0.4× oder > 1.8× typische Biene (Teilstück oder mehrere Bienen),196,2.0,7384,74.7,5.2
+alle,5_ueberlappung,mehr als 5 % der Maske von anderer Maske überdeckt,1628,16.5,5756,58.3,36.4
+alle,6_form,nicht länglich (Längen-Verhältnis < 1.5) oder ausgefranst (Kompaktheit < 0.8): von vorn/von der Seite/verdeckt,1315,13.3,4441,45.0,33.5
+alle,7_unscharf,Schärfe unter dem 20. Perzentil des Stocks,784,7.9,3657,37.0,20.0

@@ -1,0 +1,88 @@
+[{"stream_name":"stderr","time":7.18999448,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.190044593,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.190049608,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.190052482,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":7.788786378,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.788819402,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.788824744,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.78883267,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":25.256179993,"data":"HF_LOGIN OK\n"}
+,{"stream_name":"stdout","time":737.351843366,"data":"[  11.9 min] GPU 1: OK rec2123_seq016 300 Bilder 667 s 103.3 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":815.561282595,"data":"[  13.2 min] GPU 0: OK rec2123_seq015 300 Bilder 746 s 104.3 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":1407.242459645,"data":"[  23.0 min] GPU 1: OK rec2123_seq018 300 Bilder 670 s 107.1 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":1557.918046954,"data":"[  25.5 min] GPU 0: OK rec2123_seq017 300 Bilder 742 s 105.5 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":2076.513704164,"data":"[  34.2 min] GPU 1: OK rec2123_seq020 300 Bilder 669 s 103.2 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":2298.942039773,"data":"[  37.9 min] GPU 0: OK rec2123_seq019 300 Bilder 741 s 106.8 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":2745.358368019,"data":"[  45.3 min] GPU 1: OK rec2123_seq022 300 Bilder 669 s 102.1 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":3039.035156071,"data":"[  50.2 min] GPU 0: OK rec2123_seq021 300 Bilder 740 s 104.9 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":3413.778941088,"data":"[  56.5 min] GPU 1: OK rec2123_seq024 300 Bilder 668 s 102.0 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":3779.266156212,"data":"[  62.6 min] GPU 0: OK rec2123_seq023 300 Bilder 740 s 103.7 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":4082.841494227,"data":"[  67.6 min] GPU 1: OK rec2123_seq026 300 Bilder 669 s 104.0 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":4519.890914502,"data":"[  74.9 min] GPU 0: OK rec2123_seq025 300 Bilder 741 s 102.0 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":4751.879988125,"data":"[  78.8 min] GPU 1: OK rec2123_seq028 300 Bilder 669 s 100.9 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":5259.94376764,"data":"[  87.2 min] GPU 0: OK rec2123_seq027 300 Bilder 740 s 102.1 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":5419.348404796,"data":"[  89.9 min] GPU 1: OK rec2123_seq030 300 Bilder 667 s 98.7 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":6001.617198101,"data":"[  99.6 min] GPU 0: OK rec2123_seq029 300 Bilder 742 s 108.5 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":6086.914582459,"data":"[ 101.0 min] GPU 1: OK rec2123_seq032 300 Bilder 668 s 98.8 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":6747.377856353,"data":"[ 112.0 min] GPU 0: OK rec2123_seq031 300 Bilder 746 s 91.0 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":6756.850470924,"data":"[ 112.2 min] GPU 1: OK rec2123_seq035 300 Bilder 670 s 99.8 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":7425.574499823,"data":"[ 123.3 min] GPU 1: OK rec2123_seq037 300 Bilder 669 s 101.0 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":7493.095208647,"data":"[ 124.5 min] GPU 0: OK rec2123_seq033 300 Bilder 746 s 102.0 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":8094.239599737,"data":"[ 134.5 min] GPU 1: OK rec2123_seq039 300 Bilder 669 s 101.8 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":8238.493362792,"data":"[ 136.9 min] GPU 0: OK rec2123_seq036 300 Bilder 745 s 99.0 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":8761.669294025,"data":"[ 145.6 min] GPU 1: OK rec2123_seq041 300 Bilder 667 s 102.1 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":8986.494380864,"data":"[ 149.4 min] GPU 0: OK rec2123_seq038 300 Bilder 748 s 100.5 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":9430.030765381,"data":"[ 156.7 min] GPU 1: OK rec2123_seq043 300 Bilder 668 s 105.9 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":9733.163147048,"data":"[ 161.8 min] GPU 0: OK rec2123_seq040 300 Bilder 747 s 99.6 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":10098.50986603,"data":"[ 167.9 min] GPU 1: OK rec2123_seq045 300 Bilder 668 s 95.2 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":10479.631442581,"data":"[ 174.2 min] GPU 0: OK rec2123_seq042 300 Bilder 746 s 101.6 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":10765.70257566,"data":"[ 179.0 min] GPU 1: OK rec2123_seq047 300 Bilder 667 s 99.9 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":11223.732066508,"data":"[ 186.6 min] GPU 0: OK rec2123_seq044 300 Bilder 744 s 103.5 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":11433.27416235,"data":"[ 190.1 min] GPU 1: OK rec2123_seq049 300 Bilder 668 s 104.4 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":11970.411569992,"data":"[ 199.1 min] GPU 0: OK rec2123_seq046 300 Bilder 747 s 95.2 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":12098.643935242,"data":"[ 201.2 min] GPU 1: OK rec2123_seq051 300 Bilder 665 s 105.0 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":12715.445703789,"data":"[ 211.5 min] GPU 0: OK rec2123_seq048 300 Bilder 745 s 103.4 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":12766.333394976,"data":"[ 212.4 min] GPU 1: OK rec2123_seq053 300 Bilder 668 s 103.8 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":13438.009096576,"data":"[ 223.5 min] GPU 1: OK rec2123_seq056 300 Bilder 672 s 109.7 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":13462.750254043,"data":"[ 224.0 min] GPU 0: OK rec2123_seq050 300 Bilder 747 s 105.4 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":14105.393277311,"data":"[ 234.7 min] GPU 1: OK rec2123_seq058 300 Bilder 667 s 111.5 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":14210.540029561,"data":"[ 236.4 min] GPU 0: OK rec2123_seq052 300 Bilder 748 s 104.7 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":14772.330893316,"data":"[ 245.8 min] GPU 1: OK rec2123_seq067 300 Bilder 667 s 107.6 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":14958.219750931,"data":"[ 248.9 min] GPU 0: OK rec2123_seq055 300 Bilder 748 s 108.6 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":15440.256467149,"data":"[ 256.9 min] GPU 1: OK rec2123_seq069 300 Bilder 668 s 108.9 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":15702.952032676,"data":"[ 261.3 min] GPU 0: OK rec2123_seq057 300 Bilder 745 s 109.0 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":16109.083422867,"data":"[ 268.1 min] GPU 1: OK rec2123_seq071 300 Bilder 669 s 111.1 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":16446.301534628,"data":"[ 273.7 min] GPU 0: OK rec2123_seq066 300 Bilder 743 s 105.7 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":16779.279258246,"data":"[ 279.2 min] GPU 1: OK rec2123_seq073 300 Bilder 670 s 109.6 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":17196.964048353,"data":"[ 286.2 min] GPU 0: OK rec2123_seq068 300 Bilder 751 s 106.4 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":17447.046711627,"data":"[ 290.4 min] GPU 1: OK rec2123_seq075 300 Bilder 668 s 111.7 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":17944.118029855,"data":"[ 298.6 min] GPU 0: OK rec2123_seq070 300 Bilder 747 s 110.5 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":18115.648272557,"data":"[ 301.5 min] GPU 1: OK rec2123_seq077 300 Bilder 669 s 103.9 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":18686.210568902,"data":"[ 311.0 min] GPU 0: OK rec2123_seq072 300 Bilder 742 s 112.4 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":18783.702508851,"data":"[ 312.6 min] GPU 1: OK rec2123_seq079 300 Bilder 668 s 102.9 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":19121.279013314,"data":"[ 318.3 min] GPU 1: OK rec2125_seq000 150 Bilder 338 s 59.6 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":19430.920632221,"data":"[ 323.4 min] GPU 0: OK rec2123_seq074 300 Bilder 745 s 111.0 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":19793.457428448,"data":"[ 329.5 min] GPU 1: OK rec2125_seq002 300 Bilder 672 s 60.9 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":20176.653531857,"data":"[ 335.9 min] GPU 0: OK rec2123_seq076 300 Bilder 746 s 105.9 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":20464.936440569,"data":"[ 340.7 min] GPU 1: OK rec2125_seq005 300 Bilder 671 s 54.6 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":20921.554354023,"data":"[ 348.3 min] GPU 0: OK rec2123_seq078 300 Bilder 745 s 105.0 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":21135.243194952,"data":"[ 351.8 min] GPU 1: OK rec2125_seq007 300 Bilder 670 s 56.3 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":21665.394344049,"data":"[ 360.7 min] GPU 0: OK rec2123_seq080 300 Bilder 744 s 102.4 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":21806.817012182,"data":"[ 363.0 min] GPU 1: OK rec2125_seq010 300 Bilder 672 s 41.1 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":22410.264518942,"data":"[ 373.1 min] GPU 0: OK rec2125_seq001 300 Bilder 745 s 62.2 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":22478.378824585,"data":"[ 374.2 min] GPU 1: OK rec2125_seq012 300 Bilder 672 s 45.7 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":23161.46596868,"data":"[ 385.6 min] GPU 0: OK rec2125_seq003 300 Bilder 751 s 51.8 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":23914.653599102,"data":"[ 398.2 min] GPU 0: OK rec2125_seq006 300 Bilder 753 s 59.9 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":24671.909631086,"data":"[ 410.8 min] GPU 0: OK rec2125_seq008 300 Bilder 757 s 54.9 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":25427.55686893,"data":"[ 423.4 min] GPU 0: OK rec2125_seq011 300 Bilder 756 s 44.2 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":26184.210600701,"data":"[ 436.0 min] GPU 0: OK rec2125_seq013 300 Bilder 757 s 47.4 Bienen/Bild\n"}
+,{"stream_name":"stdout","time":26185.65001613,"data":"FERTIG 7.27 h, 69 von 69 Sequenzen\n"}
+,{"stream_name":"stderr","time":26188.333835797,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":26188.333872259,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":26188.50017393,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":26188.500200631,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":26189.307879525,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":26189.39784416,"data":"[NbConvertApp] Writing 16245 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":26192.090832566,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":26192.616672927,"data":"[NbConvertApp] Writing 299678 bytes to __results__.html\n"}
+]
